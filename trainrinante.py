@@ -14,9 +14,6 @@ def __train(word_vecs_file, train_tok_texts_file, train_sents_file, train_valid_
         os.path.basename(__file__))[0], utils.get_machine_name(), str_today), mode='a', to_stdout=True)
 
     dst_aspects_file, dst_opinions_file = None, None
-    # dst_aspects_file = 'd:/data/aspect/semeval14/nrdj-aspects-bad.txt'
-    # dst_aspects_file = '/home/hldai/data/aspect/semeval14/nrdj-aspects-good.txt'
-    # dst_opinions_file = '/home/hldai/data/aspect/semeval14/nrdj-opinions-p.txt'
 
     # n_train = 1000
     n_train = -1
@@ -56,8 +53,8 @@ if __name__ == '__main__':
     n_epochs = 150
     train_word_embeddings = False
 
-    # dataset = 'se15r'
-    dataset = 'se14r'
+    dataset = 'se15r'
+    # dataset = 'se14r'
     # dataset = 'se14l'
     dataset_files = config.DATA_DICT[dataset]
 
@@ -65,23 +62,14 @@ if __name__ == '__main__':
     lstm_l2_src = False
 
     if dataset == 'se15r':
-        rule_model_file = os.path.join(config.SE15_DIR, 'model-data/pretrain/yelpr9-rest-part0_04-i30-se15r-win.ckpt')
-        word_vecs_file = os.path.join(config.DATA_DIR, 'wordvecs/yelp-w2v-sg-100-n10-i30-w5-unk.pkl')
-        # rule_model_file = os.path.join(config.SE15_DIR, 'model-data/pretrain/yelpr9-rest-part0_04-se15r.ckpt')
-        # word_vecs_file = os.path.join(config.DATA_DIR, 'wordvecs/yelp-word-vecs-sg-100-n10-i20-w5.pkl')
+        rule_model_file = os.path.join(config.DATA_DIR, 'model-data/pretrain/yelpr9-rest-se15r.ckpt')
+        word_vecs_file = os.path.join(config.DATA_DIR, 'model-data/yelp-w2v-sg-se15r.pkl')
     elif dataset == 'se14r':
-        rule_model_file = os.path.join(config.DATA_DIR, 'model-data/pretrain/yelpr9-rest-part0_04-i30-se14r.ckpt')
-        word_vecs_file = os.path.join(config.DATA_DIR, 'model-data/yelp-w2v-sg-100-n10-i30-w5-unk.pkl')
-        # rule_model_file = os.path.join(config.DATA_DIR, 'model-data/pretrain/yelpr9-rest-part0_04-se14r.ckpt')
-        # word_vecs_file = os.path.join(config.DATA_DIR, 'model-data/yelp-word-vecs-sg-100-n10-i20-w5.pkl')
+        rule_model_file = os.path.join(config.DATA_DIR, 'model-data/pretrain/yelpr9-rest-se14r.ckpt')
+        word_vecs_file = os.path.join(config.DATA_DIR, 'model-data/yelp-w2v-sg-se14r.pkl')
     else:
-        word_vecs_file = dataset_files['word_vecs_file']
-        rule_model_file = dataset_files['rule_model_file']
-        # word_vecs_file = os.path.join(config.SE14_DIR, 'model-data/laptops-amazon-word-vecs.pkl')
-        # rule_model_file = os.path.join(config.SE14_DIR, 'model-data/pretrain/laptops-amazon-word-vecs-unk.ckpt')
-        # word_vecs_file = os.path.join(config.SE14_DIR, 'model-data/amazon-wv-100-sg-n10-w8-i30.pkl')
-        # rule_model_file = os.path.join(config.SE14_DIR, 'model-data/pretrain/amazon-100d-100h-twv.ckpt')
-        # rule_model_file = os.path.join(config.SE14_DIR, 'model-data/pretrain/laptops-amazon-word-vecs-nl2-h150.ckpt')
+        rule_model_file = os.path.join(config.DATA_DIR, 'model-data/pretrain/laptops-amazon-se14l.ckpt')
+        word_vecs_file = os.path.join(config.DATA_DIR, 'model-data/laptops-amazon-w2v-se14l.pkl')
 
     __train(word_vecs_file, dataset_files['train_tok_texts_file'], dataset_files['train_sents_file'],
             dataset_files['train_valid_split_file'], dataset_files['test_tok_texts_file'],

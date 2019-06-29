@@ -390,10 +390,7 @@ class RINANTE:
                 aspect_terms_sys = [t.lower() for t in aspect_terms_sys]
             aspect_terms_sys_list.append(aspect_terms_sys)
 
-            # print(terms_true, aspect_terms_sys)
             new_hit_cnt = utils.count_hit(terms_true, aspect_terms_sys)
-            # if new_hit_cnt < len(terms_true):
-            #     print(terms_true, aspect_terms_sys)
             aspect_true_cnt += len(terms_true)
             aspect_sys_cnt += len(aspect_terms_sys)
             aspect_hit_cnt += new_hit_cnt
@@ -418,8 +415,7 @@ class RINANTE:
 
         opinion_p, opinion_r, opinion_f1 = utils.prf1(opinion_true_cnt, opinion_sys_cnt, opinion_hit_cnt)
 
-        # if dst_aspects_result_file is not None and save_result:
-        if dst_aspects_result_file is not None and (0.684 < aspect_f1 < 0.688):
+        if dst_aspects_result_file is not None and save_result:
             datautils.write_terms_list(aspect_terms_sys_list, dst_aspects_result_file)
             logging.info('write aspects to {}'.format(dst_aspects_result_file))
         if dst_opinion_result_file is not None and save_result:
