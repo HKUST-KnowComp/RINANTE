@@ -282,6 +282,7 @@ class RINANTE:
 
         best_f1_sum = 0
         best_a_f1, best_o_f1 = 0, 0
+        best_test_af1, best_test_of1 = 0, 0
         for epoch in range(n_epochs):
             losses, losses_seg = list(), list()
             for i in range(n_batches):
@@ -298,7 +299,8 @@ class RINANTE:
                 data_valid.texts, data_valid.word_idxs_list, data_valid.word_span_seqs, data_valid.tok_texts,
                 data_valid.aspects_true_list, 'tar', data_valid.opinions_true_list)
 
-            best_tag = '*' if dev_aspect_f1 + dev_opinion_f1 > best_f1_sum else ''
+            cur_f1_sum = dev_aspect_f1 + dev_opinion_f1
+            best_tag = '*' if cur_f1_sum >= best_f1_sum else ''
             logging.info('iter {}, loss={:.4f} p={:.4f} r={:.4f} f1={:.4f}'
                          ' p={:.4f} r={:.4f} f1={:.4f} f1s={:.4f} f1s*={:.4f}{}'.format(
                 epoch, loss, aspect_p, aspect_r, dev_aspect_f1, opinion_p, opinion_r,
@@ -307,7 +309,7 @@ class RINANTE:
             # if aspect_f1 + opinion_f1 > best_f1_sum:
             # if aspect_f1 > best_a_f1 and opinion_f1 > best_o_f1:
             if epoch > 29:
-                save_result = (dev_aspect_f1 + dev_opinion_f1 > best_f1_sum)
+                save_result = (cur_f1_sum >= best_f1_sum)
                 # print(aspect_f1 + opinion_f1, best_f1_sum, save_result)
                 aspect_p, aspect_r, aspect_f1, opinion_p, opinion_r, opinion_f1 = self.evaluate(
                     data_test.texts, data_test.word_idxs_list, data_test.word_span_seqs, data_test.tok_texts,
@@ -316,6 +318,10 @@ class RINANTE:
                     save_result=save_result)
                 logging.info('Test, p={:.4f}, r={:.4f}, f1={:.4f}; p={:.4f}, r={:.4f}, f1={:.4f}'.format(
                     aspect_p, aspect_r, aspect_f1, opinion_p, opinion_r, opinion_f1))
+
+                if save_result:
+                    best_test_af1 = aspect_f1
+                    best_test_of1 = opinion_f1
 
                 if self.saver is not None:
                     self.saver.save(self.sess, save_file)
@@ -327,6 +333,7 @@ class RINANTE:
                 if dev_aspect_f1 > best_a_f1 and dev_opinion_f1 > best_o_f1:
                     best_a_f1 = dev_aspect_f1
                     best_o_f1 = dev_opinion_f1
+        return best_test_af1, best_test_of1
 
     def get_feed_dict(self, word_idx_seqs, task, is_train, label_seqs=None, lr=None, dropout=None):
         word_idx_seqs = [list(word_idxs) for word_idxs in word_idx_seqs]

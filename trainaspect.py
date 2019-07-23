@@ -41,16 +41,19 @@ def __train(word_vecs_file, train_tok_texts_file, train_sents_file, train_valid_
         logging.info('turn {}'.format(i))
         model = RINANTE(n_tags, word_vecs_matrix, share_lstm, hidden_size_lstm=hidden_size_lstm,
                         model_file=load_model_file, batch_size=batch_size, lamb=lamb)
-        model.train(train_data, valid_data, test_data, vocab, n_epochs=n_epochs, lr=lr,
-                    dst_aspects_file=dst_aspects_file, dst_opinions_file=dst_opinions_file)
+        test_af1, _ = model.train(train_data, valid_data, test_data, vocab, n_epochs=n_epochs, lr=lr,
+                                  dst_aspects_file=dst_aspects_file, dst_opinions_file=dst_opinions_file)
+        test_f1s.append(test_af1)
+        logging.info('r={} test_f1={:.4f}'.format(i, test_af1))
         tf.reset_default_graph()
+    logging.info('avg_test_f1={:.4f}'.format(sum(test_f1s) / len(test_f1s)))
 
 
 if __name__ == '__main__':
     str_today = datetime.date.today().strftime('%y-%m-%d')
 
     hidden_size_lstm = 100
-    n_epochs = 150
+    n_epochs = 170
     train_word_embeddings = False
 
     # dataset = 'se15r'
@@ -64,13 +67,16 @@ if __name__ == '__main__':
     if dataset == 'se15r':
         rule_model_file = os.path.join(config.DATA_DIR, 'model-data/pretrain/yelpr9-rest-se15r.ckpt')
         word_vecs_file = os.path.join(config.DATA_DIR, 'model-data/yelp-w2v-sg-se15r.pkl')
+        train_valid_split_file = os.path.join(config.SE15_DIR, 'restaurants/se15r_train_valid_split-150.txt')
     elif dataset == 'se14r':
         rule_model_file = os.path.join(config.DATA_DIR, 'model-data/pretrain/yelpr9-rest-se14r.ckpt')
         word_vecs_file = os.path.join(config.DATA_DIR, 'model-data/yelp-w2v-sg-se14r.pkl')
+        train_valid_split_file = os.path.join(config.SE14_DIR, 'restaurants/se14r_train_valid_split-150.txt')
     else:
         rule_model_file = os.path.join(config.DATA_DIR, 'model-data/pretrain/laptops-amazon-se14l.ckpt')
         word_vecs_file = os.path.join(config.DATA_DIR, 'model-data/laptops-amazon-w2v-se14l.pkl')
+        train_valid_split_file = os.path.join(config.SE14_DIR, 'laptops/se14l_train_valid_split-150.txt')
 
     __train(word_vecs_file, dataset_files['train_tok_texts_file'], dataset_files['train_sents_file'],
-            dataset_files['train_valid_split_file'], dataset_files['test_tok_texts_file'],
+            train_valid_split_file, dataset_files['test_tok_texts_file'],
             dataset_files['test_sents_file'], rule_model_file, 'aspect')

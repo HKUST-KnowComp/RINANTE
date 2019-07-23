@@ -17,10 +17,7 @@ def __train(word_vecs_file, train_tok_texts_file, train_sents_file, train_valid_
 
     # n_train = 1000
     n_train = -1
-    label_opinions = True
-    # label_opinions = False
-    n_tags = 5 if label_opinions else 3
-    # n_tags = 5 if task == 'train' else 3
+    n_tags = 5
     batch_size = 32
     lr = 0.001
     share_lstm = False
@@ -51,9 +48,9 @@ if __name__ == '__main__':
     n_epochs = 150
     train_word_embeddings = False
 
-    # dataset = 'se15r'
+    dataset = 'se15r'
     # dataset = 'se14r'
-    dataset = 'se14l'
+    # dataset = 'se14l'
     dataset_files = config.DATA_DICT[dataset]
 
     lamb = 0.001
