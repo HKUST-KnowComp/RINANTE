@@ -107,7 +107,7 @@ def __add_unk_word(word_vecs_matrix):
     word_vecs = np.zeros((n_words + 1, dim), np.float32)
     for i in range(n_words):
         word_vecs[i] = word_vecs_matrix[i]
-    word_vecs[n_words] = np.random.normal(0, 0.01, dim)
+    word_vecs[n_words] = np.random.normal(0, 0.1, dim)
     # word_vecs[n_words] = np.random.uniform(-0.1, 0.1, dim)
     return word_vecs
 
@@ -118,7 +118,9 @@ def load_word_vecs(word_vecs_file, add_unk=True):
     with open(word_vecs_file, 'rb') as f:
         vocab, word_vecs_matrix = pickle.load(f)
     if add_unk and (not vocab[-1] == '<UNK>'):
+        print('add <UNK>')
         word_vecs_matrix = __add_unk_word(word_vecs_matrix)
         vocab.append('<UNK>')
+
     assert vocab[-1] == '<UNK>'
     return vocab, word_vecs_matrix

@@ -59,7 +59,7 @@ def label_sentence_by_span(words, word_spans, aspect_term_spans=None, opinion_te
         label_val_beg, label_val_in = 3, 4
 
     if opinion_terms is None:
-        return x
+        return x, True
 
     all_found = __label_words_with_terms(words, opinion_terms, label_val_beg, label_val_in, x)
     return x, all_found

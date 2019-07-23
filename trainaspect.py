@@ -1,5 +1,6 @@
 import os
 import config
+import tensorflow as tf
 import datetime
 from models.rinante import RINANTE
 from models import modelutils
@@ -17,11 +18,8 @@ def __train(word_vecs_file, train_tok_texts_file, train_sents_file, train_valid_
 
     # n_train = 1000
     n_train = -1
-    label_opinions = True
-    # label_opinions = False
-    n_tags = 5 if label_opinions else 3
-    # n_tags = 5 if task == 'train' else 3
-    batch_size = 32
+    n_tags = 5
+    batch_size = 64
     lr = 0.001
     share_lstm = False
 
@@ -38,10 +36,14 @@ def __train(word_vecs_file, train_tok_texts_file, train_sents_file, train_valid_
         vocab, n_train, task)
     print('done')
 
-    model = RINANTE(n_tags, word_vecs_matrix, share_lstm, hidden_size_lstm=hidden_size_lstm,
-                    model_file=load_model_file, batch_size=batch_size, lamb=lamb)
-    model.train(train_data, valid_data, test_data, vocab, n_epochs=n_epochs, lr=lr, dst_aspects_file=dst_aspects_file,
-                dst_opinions_file=dst_opinions_file)
+    test_f1s = list()
+    for i in range(5):
+        logging.info('turn {}'.format(i))
+        model = RINANTE(n_tags, word_vecs_matrix, share_lstm, hidden_size_lstm=hidden_size_lstm,
+                        model_file=load_model_file, batch_size=batch_size, lamb=lamb)
+        model.train(train_data, valid_data, test_data, vocab, n_epochs=n_epochs, lr=lr,
+                    dst_aspects_file=dst_aspects_file, dst_opinions_file=dst_opinions_file)
+        tf.reset_default_graph()
 
 
 if __name__ == '__main__':
@@ -71,4 +73,4 @@ if __name__ == '__main__':
 
     __train(word_vecs_file, dataset_files['train_tok_texts_file'], dataset_files['train_sents_file'],
             dataset_files['train_valid_split_file'], dataset_files['test_tok_texts_file'],
-            dataset_files['test_sents_file'], rule_model_file, 'both')
+            dataset_files['test_sents_file'], rule_model_file, 'aspect')
