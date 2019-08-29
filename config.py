@@ -1,7 +1,7 @@
 from os.path import join
 from platform import platform
 
-DATA_DIR = 'd:/data/rinante-data/'
+DATA_DIR = 'rinante-data/'
 
 SE14_DIR = join(DATA_DIR, 'semeval14')
 SE15_DIR = join(DATA_DIR, 'semeval15')
