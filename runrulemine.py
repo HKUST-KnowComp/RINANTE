@@ -59,13 +59,18 @@ pos_tags_file = data_files['train_pos_tags_file']
 word_cnts_file = data_files['word_cnts_file']
 sents_file = data_files['train_sents_file']
 train_valid_split_file = data_files['train_valid_split_file']
-patterns_file = data_files['rule_patterns_file']
+patterns_file = data_files['{}_rule_patterns_file'.format(target)]
+term_filter_file = data_files['{}_term_filter_file'.format(target)]
+term_hit_rate_file = data_files['{}_term_hit_rate_file'.format(target)]
 
 if target == 'aspect':
     mine_tool = AspectMineTool(opinion_terms_file)
 else:
     mine_tool = OpinionMineTool()
 
-# __gen_word_cnts_file(data_files['train_tok_texts_file'], word_cnts_file)
+__gen_word_cnts_file(data_files['train_tok_texts_file'], word_cnts_file)
 rulemine.gen_rule_patterns(mine_tool, dep_tags_file, pos_tags_file, sents_file, train_valid_split_file,
                            word_cnts_file, freq_thres, term_filter_rate, pattern_filter_rate, patterns_file)
+rulemine.gen_filter_terms_vocab_file(mine_tool, dep_tags_file, pos_tags_file, sents_file, term_filter_rate,
+                                     term_filter_file)
+rulemine.gen_term_hit_rate_file(mine_tool, sents_file, dep_tags_file, pos_tags_file, term_hit_rate_file)

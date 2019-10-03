@@ -14,8 +14,10 @@ SE14L_FILES = {
     'test_tok_texts_file': join(SE14_DIR, 'laptops/laptops_test_texts_tok_pos.txt'),
     'train_dep_tags_file': join(SE14_DIR, 'laptops/laptops-train-rule-dep.txt'),
     'train_pos_tags_file': join(SE14_DIR, 'laptops/laptops-train-rule-pos.txt'),
-    'rule_patterns_file': join(SE14_DIR, 'laptops/se14-rule-patterns.txt'),
     'word_cnts_file': join(SE14_DIR, 'laptops/word_cnts.txt'),
+    'aspect_rule_patterns_file': join(DATA_DIR, 'rule_patterns/se14l_aspect_mined_rule_patterns.txt'),
+    'aspect_term_filter_file': join(SE14_DIR, 'laptops/se14l_aspect_term_filter_vocab.txt'),
+    'aspect_term_hit_rate_file': join(SE14_DIR, 'laptops/se14l_aspect_term_hit_rate_file.txt')
 }
 
 SE14R_FILES = {

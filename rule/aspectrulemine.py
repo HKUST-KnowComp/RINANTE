@@ -62,7 +62,7 @@ class AspectMineTool:
         return pw == w
 
     @staticmethod
-    def get_terms_by_matching(dep_tags, pos_tags, sent_text, terms_vocab, flg):
+    def get_terms_by_matching(dep_tags, pos_tags, sent_text, terms_vocab):
         sent_text_lower = sent_text.lower()
         matched_tups = list()
         for t in terms_vocab:
@@ -76,8 +76,6 @@ class AspectMineTool:
                 continue
             matched_tups.append((pbeg, pend))
             # break
-        if flg:
-            print(matched_tups)
 
         matched_tups = AspectMineTool.__remove_embeded(matched_tups)
         sent_words = [tup[2][1] for tup in dep_tags]
