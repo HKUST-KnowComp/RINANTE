@@ -12,6 +12,10 @@ SE14L_FILES = {
     'train_valid_split_file': join(SE14_DIR, 'laptops/laptops_train_valid_split.txt'),
     'test_sents_file': join(SE14_DIR, 'laptops/laptops_test_sents.json'),
     'test_tok_texts_file': join(SE14_DIR, 'laptops/laptops_test_texts_tok_pos.txt'),
+    'train_dep_tags_file': join(SE14_DIR, 'laptops/laptops-train-rule-dep.txt'),
+    'train_pos_tags_file': join(SE14_DIR, 'laptops/laptops-train-rule-pos.txt'),
+    'rule_patterns_file': join(SE14_DIR, 'laptops/se14-rule-patterns.txt'),
+    'word_cnts_file': join(SE14_DIR, 'laptops/word_cnts.txt'),
 }
 
 SE14R_FILES = {
