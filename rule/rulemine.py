@@ -300,11 +300,11 @@ def gen_filter_terms_vocab_file(mine_tool, dep_tags_file, pos_tags_file, sents_f
             fout.write('{}\n'.format(t))
 
 
-def gen_term_hit_rate_file(mine_helper, train_sents_file, dep_tags_file, pos_tags_file, dst_file):
+def gen_term_hit_rate_file(mine_tool, train_sents_file, dep_tags_file, pos_tags_file, dst_file):
     dep_tags_list = datautils.load_dep_tags_list(dep_tags_file)
     pos_tags_list = datautils.load_pos_tags(pos_tags_file)
     sents = datautils.load_json_objs(train_sents_file)
-    terms_list = mine_helper.terms_list_from_sents(sents)
+    terms_list = mine_tool.terms_list_from_sents(sents)
     term_hit_cnts = dict()
     for terms in terms_list:
         for t in terms:
@@ -317,7 +317,7 @@ def gen_term_hit_rate_file(mine_helper, train_sents_file, dep_tags_file, pos_tag
     # for t in term_hit_cnts.keys():
     for dep_tags, pos_tags, sent in zip(dep_tags_list, pos_tags_list, sents):
         sent_text = sent['text'].lower()
-        terms = mine_helper.get_terms_by_matching(dep_tags, pos_tags, sent_text, all_terms)
+        terms = mine_tool.get_terms_by_matching(dep_tags, pos_tags, sent_text, all_terms)
         for t in terms:
             cnt = term_cnts.get(t, 0)
             term_cnts[t] = cnt + 1

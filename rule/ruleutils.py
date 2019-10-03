@@ -4,6 +4,29 @@ JJ_POS_TAGS = {'JJ', 'JJR', 'JJS'}
 RB_POS_TAGS = {'RB', 'RBR'}
 
 
+def load_rule_patterns_file(filename):
+    l1_rules, l2_rules = list(), list()
+    f = open(filename, encoding='utf-8')
+    for line in f:
+        vals = line.strip().split()
+        assert len(vals) == 3 or len(vals) == 8
+        if len(vals) == 3:
+            l1_rules.append(vals)
+        else:
+            l2_rules.append(
+                (((vals[0], vals[1], vals[2]), int(vals[3])), ((vals[4], vals[5], vals[6]), int(vals[7]))))
+    f.close()
+    return l1_rules, l2_rules
+
+
+def get_term_vocab(aspect_term_hit_rate_file, rate_thres):
+    import pandas as pd
+
+    df = pd.read_csv(aspect_term_hit_rate_file)
+    df = df[df['rate'] > rate_thres]
+    return set(df['term'])
+
+
 def find_related_l2_dep_tags(related_dep_tag_idxs, dep_tags):
     related = list()
     for i in related_dep_tag_idxs:
