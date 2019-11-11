@@ -1,0 +1,618 @@
+acl:relcl NN _OJ
+advcl JJ _OJ
+advcl _OJ JJ
+advcl _OJ VB
+advmod _OJ IN
+advmod _OJ RB
+advmod _OJ also
+advmod _OJ as
+advmod _OJ just
+advmod _OJ more
+advmod _OJ pretty
+advmod _OJ quite
+advmod _OJ really
+advmod _OJ so
+advmod _OJ too
+advmod _OJ very
+advmod _OV highly
+amod NN _OJ
+amod NNP _OJ
+amod _OJ JJ
+amod _OJ little
+amod atmosphere _OJ
+amod experience _OJ
+amod food _OJ
+amod meal _OJ
+amod place _OJ
+amod prices _OJ
+amod restaurant _OJ
+amod service _OJ
+amod spot _OJ
+amod staff _OJ
+amod sushi _OJ
+aux _OJ MD
+aux _OV would
+case _OJ of
+cc _OJ CC
+cc _OJ and
+cc _OJ but
+ccomp JJ _OJ
+ccomp VBD _OJ
+ccomp _OJ JJ
+conj JJ _OJ
+conj NN _OJ
+conj VBD _OJ
+conj VBN _OJ
+conj _OJ JJ
+conj _OJ NN
+conj _OJ NNP
+conj _OJ VB
+conj _OJ VBD
+conj _OJ VBN
+conj _OJ VBP
+conj _OJ VBZ
+conj _OJ good
+conj _OJ tasty
+conj good _OJ
+cop _OJ 's
+cop _OJ VB
+cop _OJ VBD
+cop _OJ VBN
+cop _OJ VBP
+cop _OJ VBZ
+cop _OJ are
+cop _OJ be
+cop _OJ been
+cop _OJ is
+cop _OJ was
+cop _OJ were
+dep NN _OJ
+dep _OJ JJ
+dep _OJ NN
+det _OJ DT
+det _OJ the
+dobj _OV place
+mark _OJ IN
+mark _OJ TO
+mark _OJ that
+mark _OJ to
+mark _OJ while
+neg _OJ RB
+neg _OJ n't
+neg _OJ not
+nmod _OJ NN
+nmod _OJ NNS
+nmod:npmod _OJ NN
+nsubj _OJ NN
+nsubj _OJ NNP
+nsubj _OJ NNS
+nsubj _OJ PRP
+nsubj _OJ WDT
+nsubj _OJ decor
+nsubj _OJ food
+nsubj _OJ it
+nsubj _OJ pizza
+nsubj _OJ place
+nsubj _OJ prices
+nsubj _OJ service
+nsubj _OJ staff
+nsubj _OJ they
+nsubj _OJ which
+nsubj _OR NN
+nsubj _OV i
+punct _OJ !
+punct _OJ ,
+punct _OJ -
+punct _OJ .
+punct _OV !
+root ROOT _OJ
+xcomp VBD _OJ
+xcomp _OJ VB
+acl place VB 1 amod place _OJ 1
+acl:relcl NN _OJ 1 det NN the 1
+acl:relcl NN _OJ 2 cop _OJ was 1
+acl:relcl NN _OJ 2 nsubj _OJ WDT 1
+acl:relcl NN _OJ 2 nsubj _OJ which 1
+advcl JJ _OJ 1 root ROOT JJ 2
+advcl JJ _OJ 2 mark _OJ IN 1
+advcl _OJ JJ 1 punct _OJ . 1
+advcl _OJ JJ 1 root ROOT _OJ 2
+advmod JJ very 1 conj JJ _OJ 1
+advmod _OJ RB 1 advmod _OJ RB 1
+advmod _OJ RB 1 advmod _OJ very 1
+advmod _OJ RB 1 amod NN _OJ 2
+advmod _OJ RB 1 amod NNS _OJ 2
+advmod _OJ RB 1 cc _OJ CC 1
+advmod _OJ RB 1 cc _OJ and 1
+advmod _OJ RB 1 cc _OJ but 1
+advmod _OJ RB 1 conj JJ _OJ 2
+advmod _OJ RB 1 conj _OJ JJ 1
+advmod _OJ RB 1 conj _OJ NN 1
+advmod _OJ RB 1 cop _OJ VBD 1
+advmod _OJ RB 1 cop _OJ VBP 1
+advmod _OJ RB 1 cop _OJ VBZ 1
+advmod _OJ RB 1 cop _OJ are 1
+advmod _OJ RB 1 cop _OJ is 1
+advmod _OJ RB 1 cop _OJ was 1
+advmod _OJ RB 1 cop _OJ were 1
+advmod _OJ RB 1 dep _OJ NN 1
+advmod _OJ RB 1 det _OJ DT 1
+advmod _OJ RB 1 mark _OJ IN 1
+advmod _OJ RB 1 neg _OJ RB 1
+advmod _OJ RB 1 neg _OJ not 1
+advmod _OJ RB 1 nmod _OJ NN 1
+advmod _OJ RB 1 nmod _OJ NNS 1
+advmod _OJ RB 1 nsubj _OJ NN 1
+advmod _OJ RB 1 nsubj _OJ NNP 1
+advmod _OJ RB 1 nsubj _OJ NNS 1
+advmod _OJ RB 1 nsubj _OJ PRP 1
+advmod _OJ RB 1 nsubj _OJ food 1
+advmod _OJ RB 1 nsubj _OJ it 1
+advmod _OJ RB 1 nsubj _OJ prices 1
+advmod _OJ RB 1 nsubj _OJ service 1
+advmod _OJ RB 1 punct _OJ ! 1
+advmod _OJ RB 1 punct _OJ , 1
+advmod _OJ RB 1 punct _OJ . 1
+advmod _OJ RB 1 root ROOT _OJ 2
+advmod _OJ RB 1 xcomp _OJ VB 1
+advmod _OJ also 1 root ROOT _OJ 2
+advmod _OJ so 1 cc _OJ CC 1
+advmod _OJ so 1 cop _OJ VBD 1
+advmod _OJ so 1 cop _OJ VBZ 1
+advmod _OJ so 1 cop _OJ is 1
+advmod _OJ so 1 nsubj _OJ NN 1
+advmod _OJ so 1 punct _OJ . 1
+advmod _OJ so 1 root ROOT _OJ 2
+advmod _OJ very 1 amod NN _OJ 2
+advmod _OJ very 1 cc _OJ CC 1
+advmod _OJ very 1 cc _OJ and 1
+advmod _OJ very 1 conj JJ _OJ 2
+advmod _OJ very 1 conj _OJ JJ 1
+advmod _OJ very 1 cop _OJ VBD 1
+advmod _OJ very 1 cop _OJ VBP 1
+advmod _OJ very 1 cop _OJ VBZ 1
+advmod _OJ very 1 cop _OJ are 1
+advmod _OJ very 1 cop _OJ is 1
+advmod _OJ very 1 cop _OJ was 1
+advmod _OJ very 1 nsubj _OJ NN 1
+advmod _OJ very 1 nsubj _OJ NNS 1
+advmod _OJ very 1 punct _OJ , 1
+advmod _OJ very 1 punct _OJ . 1
+advmod _OJ very 1 root ROOT _OJ 2
+advmod _OV RB 1 aux _OV would 1
+advmod _OV RB 1 nsubj _OV i 1
+advmod _OV highly 1 nsubj _OV PRP 1
+advmod _OV highly 1 nsubj _OV i 1
+advmod _OV highly 1 punct _OV . 1
+advmod _OV highly 1 root ROOT _OV 2
+amod NN _OJ 1 case NN for 1
+amod NN _OJ 1 case NN to 1
+amod NN _OJ 1 case NN with 1
+amod NN _OJ 1 cc NN and 1
+amod NN _OJ 1 cc NN but 1
+amod NN _OJ 1 conj NN service 1
+amod NN _OJ 1 cop NN 's 1
+amod NN _OJ 1 cop NN is 1
+amod NN _OJ 1 det NN a 1
+amod NN _OJ 1 det NN an 1
+amod NN _OJ 1 det NN the 1
+amod NN _OJ 1 dobj had NN 2
+amod NN _OJ 1 dobj has NN 2
+amod NN _OJ 1 nsubj NN it 1
+amod NN _OJ 1 nsubj NN this 1
+amod NN _OJ 1 punct NN , 1
+amod NN _OJ 1 punct NN . 1
+amod NN _OJ 1 root ROOT NN 2
+amod NN _OJ 2 cc _OJ CC 1
+amod NN _OJ 2 cc _OJ and 1
+amod NN _OJ 2 conj _OJ JJ 1
+amod NNS _OJ 1 case NNS of 1
+amod NNS _OJ 1 cc NNS and 1
+amod NNS _OJ 1 nmod one NNS 2
+amod NNS _OJ 1 punct NNS . 1
+amod NNS _OJ 1 root ROOT NNS 2
+amod _OJ JJ 1 cc _OJ CC 1
+amod _OJ JJ 1 det _OJ DT 1
+amod _OJ JJ 1 det _OJ a 1
+amod _OJ JJ 1 nsubj _OJ NN 1
+amod _OJ JJ 1 punct _OJ . 1
+amod _OJ JJ 1 root ROOT _OJ 2
+amod _OJ little 1 det _OJ DT 1
+amod _OJ little 1 det _OJ a 1
+amod experience _OJ 1 det experience DT 1
+amod experience _OJ 1 det experience a 1
+amod food JJ 1 amod food _OJ 1
+amod food _OJ 1 case food IN 1
+amod food _OJ 1 cc food CC 1
+amod food _OJ 1 cc food and 1
+amod food _OJ 1 conj food NN 1
+amod food _OJ 1 conj food service 1
+amod food _OJ 1 punct food , 1
+amod food _OJ 1 punct food . 1
+amod food _OJ 1 root ROOT food 2
+amod meal _OJ 1 det meal DT 1
+amod place _OJ 1 cop place VBZ 1
+amod place _OJ 1 cop place is 1
+amod place _OJ 1 det place DT 1
+amod place _OJ 1 det place a 1
+amod place _OJ 1 nmod place NN 1
+amod place _OJ 1 punct place , 1
+amod place _OJ 1 punct place . 1
+amod place _OJ 1 root ROOT place 2
+amod restaurant JJ 1 amod restaurant _OJ 1
+amod restaurant _OJ 1 cop restaurant VBZ 1
+amod restaurant _OJ 1 cop restaurant is 1
+amod restaurant _OJ 1 det restaurant DT 1
+amod restaurant _OJ 1 det restaurant a 1
+amod restaurant _OJ 1 punct restaurant , 1
+amod restaurant _OJ 1 punct restaurant . 1
+amod restaurant _OJ 1 root ROOT restaurant 2
+amod service _OJ 1 punct service . 1
+amod service _OJ 1 root ROOT service 2
+aux _OJ MD 1 cop _OJ VB 1
+aux _OJ MD 1 cop _OJ be 1
+aux _OV MD 1 dobj _OV NN 1
+aux _OV MD 1 nsubj _OV i 1
+aux _OV MD 1 punct _OV . 1
+aux _OV MD 1 root ROOT _OV 2
+aux _OV would 1 nsubj _OV PRP 1
+aux _OV would 1 nsubj _OV i 1
+aux _OV would 1 punct _OV . 1
+aux _OV would 1 root ROOT _OV 2
+case NN for 1 nmod _OJ NN 2
+case _OJ IN 1 det _OJ DT 1
+case _OJ IN 1 det _OJ the 1
+cc JJ and 1 conj JJ _OJ 1
+cc JJ but 1 conj JJ _OJ 1
+cc NN and 1 conj NN _OJ 1
+cc NN and 1 nsubj _OJ NN 2
+cc VBD and 1 conj VBD _OJ 1
+cc VBN and 1 conj VBN _OJ 1
+cc _OJ CC 1 cc _OJ CC 1
+cc _OJ CC 1 cc _OJ and 1
+cc _OJ CC 1 conj JJ _OJ 2
+cc _OJ CC 1 conj _OJ JJ 1
+cc _OJ CC 1 conj _OJ NN 1
+cc _OJ CC 1 conj _OJ NNP 1
+cc _OJ CC 1 conj _OJ VB 1
+cc _OJ CC 1 conj _OJ VBD 1
+cc _OJ CC 1 conj _OJ VBN 1
+cc _OJ CC 1 conj _OJ VBP 1
+cc _OJ CC 1 conj _OJ VBZ 1
+cc _OJ CC 1 conj _OJ good 1
+cc _OJ CC 1 conj _OJ tasty 1
+cc _OJ CC 1 cop _OJ VBD 1
+cc _OJ CC 1 cop _OJ VBP 1
+cc _OJ CC 1 cop _OJ VBZ 1
+cc _OJ CC 1 cop _OJ are 1
+cc _OJ CC 1 cop _OJ is 1
+cc _OJ CC 1 cop _OJ was 1
+cc _OJ CC 1 cop _OJ were 1
+cc _OJ CC 1 mark _OJ IN 1
+cc _OJ CC 1 neg _OJ RB 1
+cc _OJ CC 1 neg _OJ not 1
+cc _OJ CC 1 nmod _OJ NN 1
+cc _OJ CC 1 nmod _OJ NNS 1
+cc _OJ CC 1 nsubj _OJ NN 1
+cc _OJ CC 1 nsubj _OJ NNS 1
+cc _OJ CC 1 nsubj _OJ PRP 1
+cc _OJ CC 1 nsubj _OJ food 1
+cc _OJ CC 1 nsubj _OJ it 1
+cc _OJ CC 1 nsubj _OJ place 1
+cc _OJ CC 1 nsubj _OJ service 1
+cc _OJ CC 1 nsubj _OJ staff 1
+cc _OJ CC 1 punct _OJ ! 1
+cc _OJ CC 1 punct _OJ , 1
+cc _OJ CC 1 punct _OJ . 1
+cc _OJ CC 1 root ROOT _OJ 2
+cc _OJ and 1 cc _OJ and 1
+cc _OJ and 1 conj _OJ JJ 1
+cc _OJ and 1 conj _OJ NN 1
+cc _OJ and 1 conj _OJ NNP 1
+cc _OJ and 1 conj _OJ VB 1
+cc _OJ and 1 conj _OJ VBD 1
+cc _OJ and 1 conj _OJ VBN 1
+cc _OJ and 1 conj _OJ VBP 1
+cc _OJ and 1 conj _OJ tasty 1
+cc _OJ and 1 cop _OJ VBD 1
+cc _OJ and 1 cop _OJ VBP 1
+cc _OJ and 1 cop _OJ VBZ 1
+cc _OJ and 1 cop _OJ are 1
+cc _OJ and 1 cop _OJ is 1
+cc _OJ and 1 cop _OJ was 1
+cc _OJ and 1 cop _OJ were 1
+cc _OJ and 1 mark _OJ IN 1
+cc _OJ and 1 nmod _OJ NN 1
+cc _OJ and 1 nsubj _OJ NN 1
+cc _OJ and 1 nsubj _OJ NNS 1
+cc _OJ and 1 nsubj _OJ PRP 1
+cc _OJ and 1 nsubj _OJ food 1
+cc _OJ and 1 nsubj _OJ it 1
+cc _OJ and 1 nsubj _OJ service 1
+cc _OJ and 1 punct _OJ , 1
+cc _OJ and 1 punct _OJ . 1
+cc _OJ and 1 root ROOT _OJ 2
+cc _OJ but 1 conj _OJ JJ 1
+cc _OJ but 1 conj _OJ NN 1
+cc _OJ but 1 cop _OJ VBD 1
+cc _OJ but 1 cop _OJ VBZ 1
+cc _OJ but 1 cop _OJ is 1
+cc _OJ but 1 cop _OJ was 1
+cc _OJ but 1 nsubj _OJ NN 1
+cc _OJ but 1 nsubj _OJ NNS 1
+cc _OJ but 1 punct _OJ , 1
+cc _OJ but 1 punct _OJ . 1
+cc _OJ but 1 root ROOT _OJ 2
+cc _OV CC 1 nsubj _OV NN 1
+cc good CC 1 conj good _OJ 1
+ccomp JJ _OJ 1 punct JJ , 1
+ccomp JJ _OJ 2 nsubj _OJ NN 1
+ccomp VBD _OJ 2 cop _OJ VBD 1
+ccomp _OJ JJ 1 nsubj _OJ NN 1
+ccomp _OJ JJ 1 punct _OJ , 1
+ccomp _OJ JJ 1 punct _OJ . 1
+ccomp _OJ JJ 1 root ROOT _OJ 2
+conj JJ _OJ 1 cop JJ are 1
+conj JJ _OJ 1 cop JJ is 1
+conj JJ _OJ 1 cop JJ was 1
+conj JJ _OJ 1 nsubj JJ food 1
+conj JJ _OJ 1 nsubj JJ it 1
+conj JJ _OJ 1 nsubj JJ service 1
+conj JJ _OJ 1 punct JJ , 1
+conj JJ _OJ 1 punct JJ . 1
+conj JJ _OJ 1 root ROOT JJ 2
+conj JJ _OJ 2 cop _OJ VBD 1
+conj JJ _OJ 2 cop _OJ VBZ 1
+conj JJ _OJ 2 cop _OJ is 1
+conj JJ _OJ 2 cop _OJ was 1
+conj JJ _OJ 2 neg _OJ RB 1
+conj JJ _OJ 2 nsubj _OJ NN 1
+conj JJ _OJ 2 nsubj _OJ NNS 1
+conj NN _OJ 1 punct NN , 1
+conj NN _OJ 1 punct NN . 1
+conj NN _OJ 1 root ROOT NN 2
+conj VBD _OJ 1 punct VBD . 1
+conj VBD _OJ 1 root ROOT VBD 2
+conj VBD _OJ 2 cop _OJ VBD 1
+conj VBD _OJ 2 cop _OJ was 1
+conj _OJ JJ 1 conj _OJ JJ 1
+conj _OJ JJ 1 cop _OJ VBD 1
+conj _OJ JJ 1 cop _OJ VBP 1
+conj _OJ JJ 1 cop _OJ VBZ 1
+conj _OJ JJ 1 cop _OJ are 1
+conj _OJ JJ 1 cop _OJ is 1
+conj _OJ JJ 1 cop _OJ was 1
+conj _OJ JJ 1 mark _OJ IN 1
+conj _OJ JJ 1 nsubj _OJ NN 1
+conj _OJ JJ 1 nsubj _OJ NNS 1
+conj _OJ JJ 1 nsubj _OJ PRP 1
+conj _OJ JJ 1 nsubj _OJ food 1
+conj _OJ JJ 1 nsubj _OJ it 1
+conj _OJ JJ 1 nsubj _OJ service 1
+conj _OJ JJ 1 punct _OJ , 1
+conj _OJ JJ 1 punct _OJ . 1
+conj _OJ JJ 1 root ROOT _OJ 2
+conj _OJ JJ 2 cop JJ is 1
+conj _OJ JJ 2 cop JJ was 1
+conj _OJ NN 1 cop _OJ VBD 1
+conj _OJ NN 1 cop _OJ VBZ 1
+conj _OJ NN 1 cop _OJ is 1
+conj _OJ NN 1 cop _OJ was 1
+conj _OJ NN 1 nsubj _OJ NN 1
+conj _OJ NN 1 punct _OJ , 1
+conj _OJ NN 1 punct _OJ . 1
+conj _OJ NN 1 root ROOT _OJ 2
+conj _OJ NN 2 det NN a 1
+conj _OJ NN 2 det NN the 1
+conj _OJ NNP 1 punct _OJ . 1
+conj _OJ NNP 1 root ROOT _OJ 2
+conj _OJ VB 1 nsubj _OJ NN 1
+conj _OJ VB 1 punct _OJ . 1
+conj _OJ VB 1 root ROOT _OJ 2
+conj _OJ VBD 1 cop _OJ VBD 1
+conj _OJ VBD 1 nsubj _OJ NN 1
+conj _OJ VBD 1 punct _OJ . 1
+conj _OJ VBD 1 root ROOT _OJ 2
+conj _OJ VBN 1 cop _OJ VBZ 1
+conj _OJ VBN 1 cop _OJ is 1
+conj _OJ VBN 1 nsubj _OJ NN 1
+conj _OJ VBN 1 punct _OJ , 1
+conj _OJ VBN 1 punct _OJ . 1
+conj _OJ VBN 1 root ROOT _OJ 2
+conj _OJ VBP 1 nsubj _OJ NN 1
+conj _OJ VBP 1 punct _OJ . 1
+conj _OJ VBP 1 root ROOT _OJ 2
+conj _OJ VBZ 1 punct _OJ . 1
+conj _OJ VBZ 1 root ROOT _OJ 2
+cop _OJ 's 1 nsubj _OJ PRP 1
+cop _OJ 's 1 nsubj _OJ it 1
+cop _OJ 's 1 punct _OJ . 1
+cop _OJ 's 1 root ROOT _OJ 2
+cop _OJ VBD 1 mark _OJ IN 1
+cop _OJ VBD 1 neg _OJ RB 1
+cop _OJ VBD 1 nmod _OJ NN 1
+cop _OJ VBD 1 nsubj _OJ NN 1
+cop _OJ VBD 1 nsubj _OJ NNS 1
+cop _OJ VBD 1 nsubj _OJ PRP 1
+cop _OJ VBD 1 nsubj _OJ WDT 1
+cop _OJ VBD 1 nsubj _OJ food 1
+cop _OJ VBD 1 nsubj _OJ it 1
+cop _OJ VBD 1 nsubj _OJ service 1
+cop _OJ VBD 1 nsubj _OJ which 1
+cop _OJ VBD 1 punct _OJ , 1
+cop _OJ VBD 1 punct _OJ . 1
+cop _OJ VBD 1 root ROOT _OJ 2
+cop _OJ VBP 1 nsubj _OJ NNS 1
+cop _OJ VBP 1 nsubj _OJ PRP 1
+cop _OJ VBP 1 nsubj _OJ prices 1
+cop _OJ VBP 1 nsubj _OJ they 1
+cop _OJ VBP 1 punct _OJ , 1
+cop _OJ VBP 1 punct _OJ . 1
+cop _OJ VBP 1 root ROOT _OJ 2
+cop _OJ VBZ 1 dep _OJ JJ 1
+cop _OJ VBZ 1 mark _OJ IN 1
+cop _OJ VBZ 1 neg _OJ RB 1
+cop _OJ VBZ 1 neg _OJ not 1
+cop _OJ VBZ 1 nmod _OJ NN 1
+cop _OJ VBZ 1 nmod _OJ NNS 1
+cop _OJ VBZ 1 nsubj _OJ NN 1
+cop _OJ VBZ 1 nsubj _OJ NNP 1
+cop _OJ VBZ 1 nsubj _OJ PRP 1
+cop _OJ VBZ 1 nsubj _OJ decor 1
+cop _OJ VBZ 1 nsubj _OJ food 1
+cop _OJ VBZ 1 nsubj _OJ it 1
+cop _OJ VBZ 1 nsubj _OJ place 1
+cop _OJ VBZ 1 nsubj _OJ service 1
+cop _OJ VBZ 1 punct _OJ ! 1
+cop _OJ VBZ 1 punct _OJ , 1
+cop _OJ VBZ 1 punct _OJ . 1
+cop _OJ VBZ 1 root ROOT _OJ 2
+cop _OJ are 1 nmod _OJ NN 1
+cop _OJ are 1 nsubj _OJ NNS 1
+cop _OJ are 1 nsubj _OJ prices 1
+cop _OJ are 1 punct _OJ , 1
+cop _OJ are 1 punct _OJ . 1
+cop _OJ are 1 root ROOT _OJ 2
+cop _OJ is 1 dep _OJ JJ 1
+cop _OJ is 1 mark _OJ IN 1
+cop _OJ is 1 neg _OJ RB 1
+cop _OJ is 1 neg _OJ not 1
+cop _OJ is 1 nmod _OJ NN 1
+cop _OJ is 1 nmod _OJ NNS 1
+cop _OJ is 1 nsubj _OJ NN 1
+cop _OJ is 1 nsubj _OJ NNP 1
+cop _OJ is 1 nsubj _OJ PRP 1
+cop _OJ is 1 nsubj _OJ decor 1
+cop _OJ is 1 nsubj _OJ food 1
+cop _OJ is 1 nsubj _OJ it 1
+cop _OJ is 1 nsubj _OJ place 1
+cop _OJ is 1 nsubj _OJ service 1
+cop _OJ is 1 punct _OJ ! 1
+cop _OJ is 1 punct _OJ , 1
+cop _OJ is 1 punct _OJ . 1
+cop _OJ is 1 root ROOT _OJ 2
+cop _OJ was 1 mark _OJ IN 1
+cop _OJ was 1 neg _OJ RB 1
+cop _OJ was 1 nsubj _OJ NN 1
+cop _OJ was 1 nsubj _OJ PRP 1
+cop _OJ was 1 nsubj _OJ food 1
+cop _OJ was 1 nsubj _OJ it 1
+cop _OJ was 1 nsubj _OJ service 1
+cop _OJ was 1 punct _OJ , 1
+cop _OJ was 1 punct _OJ . 1
+cop _OJ was 1 root ROOT _OJ 2
+cop _OJ were 1 nsubj _OJ NNS 1
+cop _OJ were 1 punct _OJ , 1
+cop _OJ were 1 punct _OJ . 1
+cop _OJ were 1 root ROOT _OJ 2
+dep _OJ JJ 1 nsubj _OJ NN 1
+dep _OJ JJ 1 punct _OJ , 1
+dep _OJ JJ 1 punct _OJ . 1
+dep _OJ JJ 1 root ROOT _OJ 2
+dep _OJ NN 1 nsubj _OJ NN 1
+dep _OJ NN 1 punct _OJ . 1
+dep _OJ NN 1 root ROOT _OJ 2
+det NN a 1 nmod _OJ NN 2
+det NN the 1 dobj _OV NN 2
+det NN the 1 nmod _OJ NN 2
+det NN the 1 nsubj _OJ NN 2
+det NN this 1 dobj _OV NN 2
+det NN this 1 nsubj _OJ NN 2
+det NNP the 1 nsubj _OJ NNP 2
+det NNS the 1 nsubj _OJ NNS 2
+det _OJ DT 1 nsubj _OJ NN 1
+det food DT 1 nsubj _OJ food 2
+det food the 1 nsubj _OJ food 2
+det place DT 1 dobj _OV place 2
+det place DT 1 nsubj _OJ place 2
+det place the 1 nsubj _OJ place 2
+det place this 1 dobj _OV place 2
+det place this 1 nsubj _OJ place 2
+det prices DT 1 nsubj _OJ prices 2
+det prices the 1 nsubj _OJ prices 2
+det service DT 1 nsubj _OJ service 2
+det service the 1 nsubj _OJ service 2
+det staff DT 1 nsubj _OJ staff 2
+det staff the 1 nsubj _OJ staff 2
+dobj _OV NN 1 nmod _OV NN 1
+dobj _OV NN 1 nsubj _OV PRP 1
+dobj _OV NN 1 nsubj _OV i 1
+dobj _OV NN 1 punct _OV . 1
+dobj _OV NN 1 root ROOT _OV 2
+dobj _OV PRP 1 punct _OV . 1
+dobj _OV PRP 1 root ROOT _OV 2
+dobj _OV it 1 nsubj _OV PRP 1
+dobj _OV it 1 punct _OV . 1
+dobj _OV it 1 root ROOT _OV 2
+dobj _OV place 1 nsubj _OV PRP 1
+dobj _OV place 1 nsubj _OV i 1
+dobj _OV place 1 punct _OV . 1
+dobj _OV place 1 root ROOT _OV 2
+mark VB to 1 xcomp _OJ VB 2
+mark _OJ IN 1 nsubj _OJ NN 1
+mark _OJ IN 1 nsubj _OJ PRP 1
+mark _OJ IN 1 nsubj _OJ it 1
+neg _OJ RB 1 nsubj _OJ NN 1
+neg _OJ RB 1 nsubj _OJ PRP 1
+neg _OJ RB 1 nsubj _OJ it 1
+neg _OJ RB 1 punct _OJ , 1
+neg _OJ RB 1 punct _OJ . 1
+neg _OJ RB 1 root ROOT _OJ 2
+neg _OJ not 1 nsubj _OJ NN 1
+neg _OJ not 1 nsubj _OJ PRP 1
+neg _OJ not 1 punct _OJ , 1
+neg _OJ not 1 punct _OJ . 1
+neg _OJ not 1 root ROOT _OJ 2
+nmod _OJ NN 1 nsubj _OJ NN 1
+nmod _OJ NN 1 nsubj _OJ NNS 1
+nmod _OJ NN 1 punct _OJ , 1
+nmod _OJ NN 1 punct _OJ . 1
+nmod _OJ NN 1 root ROOT _OJ 2
+nmod _OJ NNS 1 nsubj _OJ NN 1
+nmod _OJ NNS 1 punct _OJ . 1
+nmod _OJ NNS 1 root ROOT _OJ 2
+nmod _OV NN 1 nsubj _OV i 1
+nsubj _OJ NN 1 punct _OJ ! 1
+nsubj _OJ NN 1 punct _OJ , 1
+nsubj _OJ NN 1 punct _OJ - 1
+nsubj _OJ NN 1 punct _OJ . 1
+nsubj _OJ NN 1 root ROOT _OJ 2
+nsubj _OJ NNP 1 punct _OJ . 1
+nsubj _OJ NNP 1 root ROOT _OJ 2
+nsubj _OJ NNS 1 punct _OJ , 1
+nsubj _OJ NNS 1 punct _OJ . 1
+nsubj _OJ NNS 1 root ROOT _OJ 2
+nsubj _OJ PRP 1 punct _OJ , 1
+nsubj _OJ PRP 1 punct _OJ . 1
+nsubj _OJ PRP 1 root ROOT _OJ 2
+nsubj _OJ PRP 1 xcomp _OJ VB 1
+nsubj _OJ food 1 punct _OJ , 1
+nsubj _OJ food 1 punct _OJ . 1
+nsubj _OJ food 1 root ROOT _OJ 2
+nsubj _OJ it 1 punct _OJ , 1
+nsubj _OJ it 1 punct _OJ . 1
+nsubj _OJ it 1 root ROOT _OJ 2
+nsubj _OJ pizza 1 punct _OJ . 1
+nsubj _OJ pizza 1 root ROOT _OJ 2
+nsubj _OJ place 1 punct _OJ . 1
+nsubj _OJ place 1 root ROOT _OJ 2
+nsubj _OJ service 1 punct _OJ , 1
+nsubj _OJ service 1 punct _OJ . 1
+nsubj _OJ service 1 root ROOT _OJ 2
+nsubj _OJ staff 1 punct _OJ . 1
+nsubj _OJ staff 1 root ROOT _OJ 2
+nsubj _OV PRP 1 punct _OV ! 1
+nsubj _OV PRP 1 punct _OV . 1
+nsubj _OV PRP 1 root ROOT _OV 2
+nsubj _OV i 1 punct _OV ! 1
+nsubj _OV i 1 punct _OV . 1
+nsubj _OV i 1 root ROOT _OV 2
+punct _OJ ! 1 punct _OJ , 1
+punct _OJ ! 1 root ROOT _OJ 2
+punct _OJ , 1 punct _OJ , 1
+punct _OJ , 1 punct _OJ . 1
+punct _OJ , 1 root ROOT _OJ 2
+punct _OJ - 1 punct _OJ . 1
+punct _OJ - 1 root ROOT _OJ 2
+punct _OJ . 1 root ROOT _OJ 2
+punct _OV ! 1 root ROOT _OV 2

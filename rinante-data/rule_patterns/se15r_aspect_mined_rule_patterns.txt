@@ -1,0 +1,133 @@
+acl:relcl _AN JJ
+amod _AN _OP
+amod _AN great
+conj NN _AN
+det _AN the
+det _AN this
+dobj try _AN
+nsubj JJ _AN
+nsubj NN _AN
+nsubj VBD _AN
+nsubj _AN this
+nsubj _OP _AN
+nsubj delicious _AN
+nsubj excellent _AN
+nsubj good _AN
+nsubj great _AN
+acl:relcl _AN JJ 1 det _AN DT 1
+acl:relcl _AN JJ 1 det _AN the 1
+acl:relcl _AN _OP 1 det _AN DT 1
+acl:relcl _AN _OP 1 det _AN the 1
+advmod JJ _OP 1 nsubj JJ _AN 1
+advmod JJ very 1 nsubj JJ _AN 1
+advmod _AN RB 1 amod _AN _OP 1
+advmod _AN RB 1 punct _AN . 1
+advmod _OP RB 1 nsubj _OP _AN 1
+advmod _OP very 1 nsubj _OP _AN 1
+advmod good RB 1 nsubj good _AN 1
+amod NN _OP 1 conj NN _AN 1
+amod NN _OP 1 nsubj NN _AN 1
+amod NN great 1 conj NN _AN 1
+amod _AN JJ 1 appos NN _AN 2
+amod _AN JJ 1 conj NN _AN 2
+amod _AN _OP 1 cc _AN CC 1
+amod _AN _OP 1 cc _AN and 1
+amod _AN _OP 1 conj NN _AN 2
+amod _AN _OP 1 det _AN the 1
+amod _AN _OP 1 nsubj _AN DT 1
+amod _AN _OP 1 nsubj _AN this 1
+amod _AN _OP 1 punct _AN . 1
+amod food JJ 1 conj food _AN 1
+amod food _OP 1 conj food _AN 1
+cc JJ and 1 nsubj JJ _AN 1
+cc JJ but 1 nsubj JJ _AN 1
+cc NN and 1 conj NN _AN 1
+cc _AN CC 1 det _AN the 1
+cc _AN CC 1 nsubj JJ _AN 2
+cc _AN and 1 det _AN DT 1
+cc _AN and 1 det _AN the 1
+cc _AN and 1 nsubj JJ _AN 2
+cc _OP CC 1 nsubj _OP _AN 1
+cc _OP and 1 nsubj _OP _AN 1
+cc _OP but 1 nsubj _OP _AN 1
+cc good CC 1 nsubj good _AN 1
+cc good and 1 nsubj good _AN 1
+compound _AN NN 1 nsubj JJ _AN 2
+compound _AN NN 1 nsubj NN _AN 2
+compound _AN NN 1 nsubj _OP _AN 2
+conj JJ _OP 1 nsubj JJ _AN 1
+conj JJ _OP 2 nsubj _OP _AN 1
+conj NN _AN 1 det NN the 1
+conj NN _AN 1 punct NN , 1
+conj NN _AN 1 punct NN . 1
+conj NN _AN 1 root ROOT NN 2
+conj NN _AN 2 det _AN DT 1
+conj _AN NN 1 det _AN the 1
+conj _AN NNS 1 punct _AN , 1
+conj _OP JJ 1 nsubj _OP _AN 1
+conj _OP JJ 2 nsubj JJ _AN 1
+conj _OP NN 1 nsubj _OP _AN 1
+cop JJ are 1 nsubj JJ _AN 1
+cop JJ is 1 nsubj JJ _AN 1
+cop JJ was 1 nsubj JJ _AN 1
+cop JJ were 1 nsubj JJ _AN 1
+cop NN is 1 nsubj NN _AN 1
+cop _AN VBZ 1 det _AN a 1
+cop _AN VBZ 1 nsubj _AN DT 1
+cop _AN VBZ 1 nsubj _AN this 1
+cop _AN is 1 nsubj _AN DT 1
+cop _AN is 1 nsubj _AN this 1
+cop _OP VBD 1 nsubj _OP _AN 1
+cop _OP VBP 1 nsubj _OP _AN 1
+cop _OP VBZ 1 nsubj _OP _AN 1
+cop _OP are 1 nsubj _OP _AN 1
+cop _OP is 1 nsubj _OP _AN 1
+cop _OP was 1 nsubj _OP _AN 1
+cop good VBD 1 nsubj good _AN 1
+cop good VBZ 1 nsubj good _AN 1
+cop good is 1 nsubj good _AN 1
+cop good was 1 nsubj good _AN 1
+det NN a 1 nsubj NN _AN 1
+det _AN DT 1 dobj _OP _AN 2
+det _AN DT 1 dobj had _AN 2
+det _AN DT 1 nsubj JJ _AN 2
+det _AN DT 1 nsubj NN _AN 2
+det _AN DT 1 nsubj VB _AN 2
+det _AN DT 1 nsubj VBD _AN 2
+det _AN DT 1 nsubj _AN this 1
+det _AN DT 1 nsubj _OP _AN 2
+det _AN DT 1 nsubj delicious _AN 2
+det _AN DT 1 nsubj excellent _AN 2
+det _AN DT 1 nsubj good _AN 2
+det _AN the 1 dobj _OP _AN 2
+det _AN the 1 nsubj JJ _AN 2
+det _AN the 1 nsubj VBD _AN 2
+det _AN the 1 nsubj _OP _AN 2
+det _AN the 1 nsubj delicious _AN 2
+det _AN the 1 nsubj excellent _AN 2
+det _AN the 1 nsubj good _AN 2
+det _AN the 1 punct _AN , 1
+det _AN this 1 nsubj JJ _AN 2
+det _OP DT 1 nsubj _OP _AN 1
+dobj VBD _AN 1 nsubj VBD i 1
+dobj _OP _AN 1 root ROOT _OP 2
+nmod VB _AN 1 root ROOT VB 2
+nsubj JJ _AN 1 punct JJ ! 1
+nsubj JJ _AN 1 punct JJ , 1
+nsubj JJ _AN 1 punct JJ . 1
+nsubj JJ _AN 1 root ROOT JJ 2
+nsubj NN _AN 1 punct NN . 1
+nsubj NN _AN 1 root ROOT NN 2
+nsubj VBD _AN 1 punct VBD . 1
+nsubj VBD _AN 1 root ROOT VBD 2
+nsubj _AN this 1 punct _AN . 1
+nsubj _AN this 1 root ROOT _AN 2
+nsubj _OP _AN 1 punct _OP ! 1
+nsubj _OP _AN 1 punct _OP , 1
+nsubj _OP _AN 1 punct _OP . 1
+nsubj _OP _AN 1 punct _OP : 1
+nsubj _OP _AN 1 root ROOT _OP 2
+nsubj good _AN 1 punct good . 1
+nsubj good _AN 1 root ROOT good 2
+nsubj great _AN 1 punct great . 1
+nsubj great _AN 1 root ROOT great 2

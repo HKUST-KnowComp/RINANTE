@@ -1,0 +1,264 @@
+advcl _OJ VBP
+advmod VBZ _OR
+advmod _OJ RB
+advmod _OJ WRB
+advmod _OJ also
+advmod _OJ how
+advmod _OJ just
+advmod _OJ so
+advmod _OJ very
+amod life _OJ
+amod price _OJ
+amod product _OJ
+amod quality _OJ
+cc _OJ CC
+cc _OJ and
+ccomp VBD _OJ
+ccomp _OJ VB
+conj JJ _OJ
+conj NN _OJ
+conj _OJ JJ
+conj _OJ NN
+conj _OJ VB
+conj _OJ VBZ
+cop _OJ 'm
+cop _OJ 's
+cop _OJ VB
+cop _OJ VBP
+cop _OJ VBZ
+cop _OJ are
+cop _OJ be
+cop _OJ is
+dep _OJ NN
+det _OJ a
+mark _OJ IN
+neg _OJ not
+nmod _OJ NN
+nmod:poss _OJ PRP$
+nmod:poss _OJ its
+nsubj _OJ NN
+nsubj _OJ NNP
+nsubj _OJ NNS
+nsubj _OJ PRP
+nsubj _OJ WDT
+nsubj _OJ it
+nsubj _OJ laptop
+nsubj _OJ screen
+nsubj _OJ that
+nsubj _OJ they
+nsubj _OJ which
+punct _OJ !
+punct _OJ ,
+punct _OJ .
+punct _OJ :
+root ROOT _OJ
+root ROOT _OR
+xcomp VBZ _OJ
+xcomp _OJ VB
+xcomp _OJ use
+advmod _OJ RB 1 advmod _OJ RB 1
+advmod _OJ RB 1 advmod _OJ very 1
+advmod _OJ RB 1 cc _OJ CC 1
+advmod _OJ RB 1 cc _OJ and 1
+advmod _OJ RB 1 conj _OJ JJ 1
+advmod _OJ RB 1 cop _OJ 's 1
+advmod _OJ RB 1 cop _OJ VBZ 1
+advmod _OJ RB 1 cop _OJ are 1
+advmod _OJ RB 1 cop _OJ is 1
+advmod _OJ RB 1 nsubj _OJ NN 1
+advmod _OJ RB 1 nsubj _OJ NNS 1
+advmod _OJ RB 1 nsubj _OJ PRP 1
+advmod _OJ RB 1 nsubj _OJ WDT 1
+advmod _OJ RB 1 nsubj _OJ it 1
+advmod _OJ RB 1 punct _OJ ! 1
+advmod _OJ RB 1 punct _OJ , 1
+advmod _OJ RB 1 punct _OJ . 1
+advmod _OJ RB 1 root ROOT _OJ 2
+advmod _OJ RB 1 xcomp _OJ VB 1
+advmod _OJ also 1 root ROOT _OJ 2
+advmod _OJ so 1 cop _OJ VBZ 1
+advmod _OJ so 1 cop _OJ is 1
+advmod _OJ so 1 nsubj _OJ PRP 1
+advmod _OJ so 1 punct _OJ . 1
+advmod _OJ so 1 root ROOT _OJ 2
+advmod _OJ very 1 cc _OJ CC 1
+advmod _OJ very 1 cc _OJ and 1
+advmod _OJ very 1 cop _OJ VBP 1
+advmod _OJ very 1 cop _OJ VBZ 1
+advmod _OJ very 1 cop _OJ is 1
+advmod _OJ very 1 nmod _OJ NN 1
+advmod _OJ very 1 nsubj _OJ NN 1
+advmod _OJ very 1 nsubj _OJ PRP 1
+advmod _OJ very 1 punct _OJ , 1
+advmod _OJ very 1 punct _OJ . 1
+advmod _OJ very 1 root ROOT _OJ 2
+amod NN _OJ 1 cc NN and 1
+amod NN _OJ 1 compound NN battery 1
+amod NN _OJ 1 cop NN is 1
+amod NN _OJ 1 dobj has NN 2
+amod NN _OJ 1 nsubj NN it 1
+amod NN _OJ 1 nsubj NN this 1
+amod _OJ JJ 1 det _OJ a 1
+amod _OJ JJ 1 punct _OJ . 1
+amod _OJ JJ 1 root ROOT _OJ 2
+amod laptop _OJ 1 punct laptop . 1
+amod laptop _OJ 1 root ROOT laptop 2
+amod life _OJ 1 compound life NN 1
+amod life _OJ 1 compound life battery 1
+amod price _OJ 1 det price DT 1
+case NN for 1 nmod _OJ NN 2
+case NN than 1 nmod _OJ NN 2
+case NN with 1 nmod _OJ NN 2
+cc JJ and 1 conj JJ _OJ 1
+cc NN and 1 conj NN _OJ 1
+cc _OJ CC 1 cc _OJ CC 1
+cc _OJ CC 1 cc _OJ and 1
+cc _OJ CC 1 conj _OJ JJ 1
+cc _OJ CC 1 conj _OJ NN 1
+cc _OJ CC 1 conj _OJ VB 1
+cc _OJ CC 1 conj _OJ VBZ 1
+cc _OJ CC 1 cop _OJ VBP 1
+cc _OJ CC 1 cop _OJ VBZ 1
+cc _OJ CC 1 cop _OJ are 1
+cc _OJ CC 1 cop _OJ is 1
+cc _OJ CC 1 nsubj _OJ NN 1
+cc _OJ CC 1 nsubj _OJ NNS 1
+cc _OJ CC 1 nsubj _OJ PRP 1
+cc _OJ CC 1 nsubj _OJ it 1
+cc _OJ CC 1 punct _OJ , 1
+cc _OJ CC 1 punct _OJ . 1
+cc _OJ CC 1 root ROOT _OJ 2
+cc _OJ and 1 conj _OJ JJ 1
+cc _OJ and 1 conj _OJ NN 1
+cc _OJ and 1 conj _OJ VBZ 1
+cc _OJ and 1 cop _OJ VBP 1
+cc _OJ and 1 cop _OJ VBZ 1
+cc _OJ and 1 cop _OJ are 1
+cc _OJ and 1 cop _OJ is 1
+cc _OJ and 1 nsubj _OJ NN 1
+cc _OJ and 1 nsubj _OJ PRP 1
+cc _OJ and 1 nsubj _OJ it 1
+cc _OJ and 1 punct _OJ , 1
+cc _OJ and 1 punct _OJ . 1
+cc _OJ and 1 root ROOT _OJ 2
+cc _OJ but 1 cop _OJ VBZ 1
+cc _OJ but 1 cop _OJ is 1
+cc _OJ but 1 nsubj _OJ NN 1
+cc _OJ but 1 punct _OJ , 1
+cc _OJ but 1 punct _OJ . 1
+cc _OJ but 1 root ROOT _OJ 2
+ccomp _OJ VB 2 mark VB to 1
+conj JJ _OJ 1 cop JJ is 1
+conj JJ _OJ 1 punct JJ . 1
+conj JJ _OJ 1 root ROOT JJ 2
+conj JJ _OJ 2 cop _OJ VBZ 1
+conj NN _OJ 1 punct NN . 1
+conj NN _OJ 1 root ROOT NN 2
+conj _OJ JJ 1 cop _OJ VBZ 1
+conj _OJ JJ 1 cop _OJ is 1
+conj _OJ JJ 1 nsubj _OJ NN 1
+conj _OJ JJ 1 punct _OJ , 1
+conj _OJ JJ 1 punct _OJ . 1
+conj _OJ JJ 1 root ROOT _OJ 2
+conj _OJ VB 1 punct _OJ . 1
+conj _OJ VB 1 root ROOT _OJ 2
+conj _OJ VBZ 1 punct _OJ . 1
+conj _OJ VBZ 1 root ROOT _OJ 2
+cop _OJ 'm 1 nsubj _OJ PRP 1
+cop _OJ 'm 1 nsubj _OJ i 1
+cop _OJ 'm 1 root ROOT _OJ 2
+cop _OJ 's 1 nsubj _OJ PRP 1
+cop _OJ 's 1 nsubj _OJ it 1
+cop _OJ 's 1 punct _OJ . 1
+cop _OJ 's 1 root ROOT _OJ 2
+cop _OJ VBP 1 nsubj _OJ NNS 1
+cop _OJ VBP 1 nsubj _OJ they 1
+cop _OJ VBP 1 punct _OJ , 1
+cop _OJ VBP 1 punct _OJ . 1
+cop _OJ VBP 1 root ROOT _OJ 2
+cop _OJ VBZ 1 det _OJ DT 1
+cop _OJ VBZ 1 nmod _OJ NN 1
+cop _OJ VBZ 1 nmod _OJ NNS 1
+cop _OJ VBZ 1 nsubj _OJ NN 1
+cop _OJ VBZ 1 nsubj _OJ NNP 1
+cop _OJ VBZ 1 nsubj _OJ PRP 1
+cop _OJ VBZ 1 nsubj _OJ it 1
+cop _OJ VBZ 1 nsubj _OJ laptop 1
+cop _OJ VBZ 1 nsubj _OJ screen 1
+cop _OJ VBZ 1 punct _OJ ! 1
+cop _OJ VBZ 1 punct _OJ , 1
+cop _OJ VBZ 1 punct _OJ . 1
+cop _OJ VBZ 1 root ROOT _OJ 2
+cop _OJ VBZ 1 xcomp _OJ VB 1
+cop _OJ VBZ 1 xcomp _OJ use 1
+cop _OJ are 1 nsubj _OJ NNS 1
+cop _OJ are 1 punct _OJ , 1
+cop _OJ are 1 punct _OJ . 1
+cop _OJ are 1 root ROOT _OJ 2
+cop _OJ is 1 det _OJ DT 1
+cop _OJ is 1 nmod _OJ NN 1
+cop _OJ is 1 nmod _OJ NNS 1
+cop _OJ is 1 nsubj _OJ NN 1
+cop _OJ is 1 nsubj _OJ NNP 1
+cop _OJ is 1 nsubj _OJ PRP 1
+cop _OJ is 1 nsubj _OJ it 1
+cop _OJ is 1 nsubj _OJ laptop 1
+cop _OJ is 1 nsubj _OJ screen 1
+cop _OJ is 1 punct _OJ ! 1
+cop _OJ is 1 punct _OJ , 1
+cop _OJ is 1 punct _OJ . 1
+cop _OJ is 1 root ROOT _OJ 2
+cop _OJ is 1 xcomp _OJ VB 1
+cop _OJ is 1 xcomp _OJ use 1
+det NN a 1 nmod _OJ NN 2
+det NN the 1 nmod _OJ NN 2
+det NN the 1 nsubj _OJ NN 2
+det NN this 1 nmod _OJ NN 2
+det NN this 1 nsubj _OJ NN 2
+det NNS the 1 nsubj _OJ NNS 2
+det computer DT 1 nsubj _OJ computer 2
+det laptop DT 1 nsubj _OJ laptop 2
+det screen DT 1 nsubj _OJ screen 2
+det screen the 1 nsubj _OJ screen 2
+mark VB to 1 xcomp _OJ VB 2
+mark _OJ IN 1 nsubj _OJ PRP 1
+mark use TO 1 xcomp _OJ use 2
+mark use to 1 xcomp _OJ use 2
+neg _OJ not 1 punct _OJ . 1
+neg _OJ not 1 root ROOT _OJ 2
+nmod _OJ NN 1 nsubj _OJ PRP 1
+nmod _OJ NN 1 nsubj _OJ it 1
+nmod _OJ NN 1 punct _OJ . 1
+nmod _OJ NN 1 root ROOT _OJ 2
+nmod _OJ NNS 1 punct _OJ . 1
+nmod _OJ NNS 1 root ROOT _OJ 2
+nsubj _OJ NN 1 punct _OJ . 1
+nsubj _OJ NN 1 root ROOT _OJ 2
+nsubj _OJ NNS 1 punct _OJ . 1
+nsubj _OJ NNS 1 root ROOT _OJ 2
+nsubj _OJ PRP 1 punct _OJ , 1
+nsubj _OJ PRP 1 punct _OJ . 1
+nsubj _OJ PRP 1 root ROOT _OJ 2
+nsubj _OJ PRP 1 xcomp _OJ VB 1
+nsubj _OJ it 1 punct _OJ , 1
+nsubj _OJ it 1 punct _OJ . 1
+nsubj _OJ it 1 root ROOT _OJ 2
+nsubj _OJ it 1 xcomp _OJ VB 1
+nsubj _OJ laptop 1 punct _OJ . 1
+nsubj _OJ laptop 1 root ROOT _OJ 2
+nsubj _OJ screen 1 punct _OJ . 1
+nsubj _OJ screen 1 root ROOT _OJ 2
+nsubj _OR NN 1 root ROOT _OR 2
+nsubj _OV PRP 1 punct _OV ! 1
+nsubj _OV i 1 punct _OV ! 1
+nsubjpass _OV PRP 1 punct _OV . 1
+nsubjpass _OV PRP 1 root ROOT _OV 2
+punct VBZ . 1 xcomp VBZ _OJ 1
+punct _OJ ! 1 root ROOT _OJ 2
+punct _OJ , 1 punct _OJ , 1
+punct _OJ , 1 punct _OJ . 1
+punct _OJ , 1 root ROOT _OJ 2
+punct _OJ . 1 root ROOT _OJ 2
+punct _OJ . 1 xcomp _OJ VB 1
+root ROOT VBZ 2 xcomp VBZ _OJ 1
+root ROOT _OJ 2 xcomp _OJ VB 1

@@ -1,0 +1,157 @@
+amod _AN _OP
+amod _AN great
+ccomp VBP _AN
+conj _AN NN
+conj _OP _AN
+cop _AN 's
+dobj VBZ _AN
+dobj has _AN
+dobj use _AN
+nmod:poss _AN their
+nsubj JJ _AN
+nsubj VBZ _AN
+nsubj _OP _AN
+nsubj great _AN
+punct _AN :
+xcomp easy _AV
+acl:relcl _AN VB 1 det _AN the 1
+acl:relcl _AN VBZ 1 det _AN DT 1
+acl:relcl _AN _OP 2 nsubj _OP WDT 1
+advmod JJ very 1 nsubj JJ _AN 1
+advmod _AN RB 1 det _AN DT 1
+advmod _OP RB 1 amod _AN _OP 2
+advmod _OP RB 1 nmod _OP _AN 1
+advmod _OP RB 1 nsubj _OP _AN 1
+amod NN _OP 1 conj NN _AN 1
+amod NN _OP 1 conj _AN NN 2
+amod _AN JJ 1 amod _AN _OP 1
+amod _AN JJ 1 compound _AN battery 1
+amod _AN JJ 1 conj _AN NN 1
+amod _AN JJ 1 cop _AN VBZ 1
+amod _AN JJ 1 cop _AN is 1
+amod _AN JJ 1 dobj VBZ _AN 2
+amod _AN JJ 1 nmod _AN NN 1
+amod _AN JJ 1 punct _AN , 1
+amod _AN _OP 1 cc _AN CC 1
+amod _AN _OP 1 cc _AN and 1
+amod _AN _OP 1 conj _AN NN 1
+amod _AN _OP 1 cop _AN VBZ 1
+amod _AN _OP 1 cop _AN is 1
+amod _AN _OP 1 dobj VBD _AN 2
+amod _AN _OP 1 dobj VBZ _AN 2
+amod _AN _OP 1 dobj has _AN 2
+amod _AN _OP 1 nmod NN _AN 2
+amod _AN _OP 1 punct _AN , 1
+amod _AN _OP 1 punct _AN . 1
+amod _AN _OP 1 root ROOT _AN 2
+amod _AN great 1 det _AN DT 1
+amod _AN great 1 det _AN a 1
+aux VB can 1 dobj VB _AN 1
+case _AN IN 1 conj _AN NN 1
+case _AN TO 1 det _AN DT 1
+case _AN _OP 1 det _AN the 1
+case _AN for 1 conj _AN NN 1
+case _AN for 1 nmod _OP _AN 2
+case _AN to 1 det _AN DT 1
+case _AN with 1 nmod VBN _AN 2
+cc JJ and 1 nsubj JJ _AN 1
+cc JJ but 1 nsubj JJ _AN 1
+cc _AN CC 1 conj _AN NN 1
+cc _AN CC 1 det _AN the 1
+cc _AN CC 1 dobj VB _AN 2
+cc _AN CC 1 nmod _OP _AN 2
+cc _AN and 1 conj _AN NN 1
+cc _AN and 1 det _AN the 1
+cc _AV and 1 mark _AV TO 1
+cc _AV and 1 mark _AV to 1
+cc _OP CC 1 conj _OP _AN 1
+cc _OP CC 1 nsubj _OP _AN 1
+cc _OP and 1 conj _OP _AN 1
+cc _OP and 1 nsubj _OP _AN 1
+compound _AN NN 1 dobj VBP _AN 2
+compound _AN NN 1 dobj VBZ _AN 2
+compound _AN NN 1 dobj has _AN 2
+compound _AN NN 1 nsubj JJ _AN 2
+compound _AN NN 1 nsubj VBZ _AN 2
+compound _AN NN 1 nsubj _OP _AN 2
+compound _AN battery 1 det _AN DT 1
+compound _AN battery 1 det _AN the 1
+compound _AN power 1 det _AN DT 1
+conj NN _AN 1 det NN the 1
+conj _AN NN 1 conj _AN NN 1
+conj _AN NN 1 det _AN the 1
+conj _AN NN 1 punct _AN , 1
+conj _AN _OP 1 punct _AN , 1
+cop JJ are 1 nsubj JJ _AN 1
+cop JJ is 1 nsubj JJ _AN 1
+cop JJ is 1 xcomp JJ _AV 1
+cop NN is 1 nsubj NN _AN 1
+cop _AN 's 1 nsubj _AN PRP 1
+cop _AN 's 1 nsubj _AN it 1
+cop _AN VBZ 1 nsubj _AN PRP 1
+cop _AN VBZ 1 nsubj _AN it 1
+cop _OP VBD 1 nsubj _OP _AN 1
+cop _OP VBP 1 nsubj _OP _AN 1
+cop _OP VBZ 1 nsubj _OP _AN 1
+cop _OP VBZ 1 xcomp _OP _AV 1
+cop _OP are 1 nsubj _OP _AN 1
+cop _OP is 1 nsubj _OP _AN 1
+cop _OP is 1 xcomp _OP _AV 1
+cop easy VBZ 1 xcomp easy _AV 1
+det NN a 1 nsubj NN _AN 1
+det _AN DT 1 dobj _OP _AN 2
+det _AN DT 1 dobj love _AN 2
+det _AN DT 1 nsubj JJ _AN 2
+det _AN DT 1 nsubj NN _AN 2
+det _AN DT 1 nsubj VB _AN 2
+det _AN DT 1 nsubj VBD _AN 2
+det _AN DT 1 nsubj VBZ _AN 2
+det _AN DT 1 nsubj _OP _AN 2
+det _AN the 1 dobj _OP _AN 2
+det _AN the 1 dobj love _AN 2
+det _AN the 1 nmod JJ _AN 2
+det _AN the 1 nmod VBN _AN 2
+det _AN the 1 nmod _OP _AN 2
+det _AN the 1 nsubj JJ _AN 2
+det _AN the 1 nsubj NN _AN 2
+det _AN the 1 nsubj VB _AN 2
+det _AN the 1 nsubj VBD _AN 2
+det _AN the 1 nsubj VBZ _AN 2
+det _AN the 1 nsubj _AN NN 1
+det _AN the 1 nsubj _OP _AN 2
+dobj VB _AN 1 neg VB not 1
+dobj VBP _AN 1 nsubj VBP i 1
+dobj VBZ _AN 1 nsubj VBZ it 1
+dobj VBZ _AN 1 punct VBZ . 1
+dobj VBZ _AN 1 root ROOT VBZ 2
+dobj has _AN 1 nsubj has PRP 1
+dobj has _AN 1 nsubj has it 1
+dobj has _AN 1 punct has . 1
+dobj has _AN 1 root ROOT has 2
+mark _AV TO 1 xcomp _OP _AV 2
+mark _AV TO 1 xcomp easy _AV 2
+mark _AV to 1 xcomp _OP _AV 2
+mark _AV to 1 xcomp easy _AV 2
+neg VB n't 1 nsubj VB _AN 1
+nmod JJ _AN 1 root ROOT JJ 2
+nmod _OP NN 1 nsubj _OP _AN 1
+nmod _OP _AN 1 punct _OP . 1
+nmod _OP _AN 1 root ROOT _OP 2
+nsubj JJ _AN 1 punct JJ , 1
+nsubj JJ _AN 1 punct JJ . 1
+nsubj JJ _AN 1 root ROOT JJ 2
+nsubj NN _AN 1 punct NN . 1
+nsubj NN _AN 1 root ROOT NN 2
+nsubj VB _AN 1 punct VB . 1
+nsubj VB _AN 1 root ROOT VB 2
+nsubj VBZ _AN 1 punct VBZ . 1
+nsubj VBZ _AN 1 root ROOT VBZ 2
+nsubj _OP _AN 1 punct _OP , 1
+nsubj _OP _AN 1 punct _OP . 1
+nsubj _OP _AN 1 punct _OP : 1
+nsubj _OP _AN 1 root ROOT _OP 2
+nsubj _OP it 1 xcomp _OP _AV 1
+nsubj great _AN 1 punct great . 1
+nsubj great _AN 1 root ROOT great 2
+punct _AN , 1 punct _AN , 1
+punct _OP . 1 xcomp _OP _AV 1

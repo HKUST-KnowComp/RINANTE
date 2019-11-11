@@ -1,0 +1,897 @@
+term,rate
+cords,2.0000
+gui,2.0000
+pad,2.0000
+costing,2.0000
+priced,2.0000
+web cam,2.0000
+hardrive,2.0000
+linux,2.0000
+cpu,2.0000
+toshiba customer services,2.0000
+touch-pad,2.0000
+track pad,2.0000
+sized,2.0000
+dc jack,2.0000
+memory stick,2.0000
+vista,1.5556
+power supply,1.5000
+touch pad,1.5000
+cooling system,1.5000
+boots up,1.5000
+hard disk,1.5000
+loads,1.5000
+os x,1.5000
+hard drives,1.5000
+gaming,1.4444
+processor,1.3750
+windows,1.3636
+webcam,1.3333
+hardware,1.3333
+service center,1.3333
+safari,1.3333
+resolution,1.3333
+repair depot,1.3333
+ms office,1.3333
+keys,1.3000
+fan,1.2857
+ram,1.2857
+software,1.2593
+mouse,1.2500
+touchpad,1.2500
+motherboard,1.2308
+service,1.2222
+runs,1.2000
+bios,1.2000
+programs,1.1935
+program,1.1818
+itunes,1.1667
+trackpad,1.1667
+windows 7 starter,1.1667
+battery,1.1429
+warranty,1.1429
+extended warranty,1.1250
+shipping,1.1250
+iphoto,1.1250
+battery life,1.0980
+features,1.0937
+size,1.0909
+keyboard,1.0833
+speakers,1.0833
+windows 7,1.0769
+price,1.0741
+memory,1.0588
+performance,1.0455
+hard drive,1.0000
+quality,1.0000
+speed,1.0000
+applications,1.0000
+graphics,1.0000
+design,1.0000
+operating system,1.0000
+warrenty,1.0000
+os,1.0000
+iwork,1.0000
+garageband,1.0000
+screen size,1.0000
+feature,1.0000
+boot up,1.0000
+drivers,1.0000
+bluetooth,1.0000
+cd drive,1.0000
+usb ports,1.0000
+portability,1.0000
+hinge,1.0000
+mousepad,1.0000
+imovie,1.0000
+ilife,1.0000
+edges,1.0000
+charger,1.0000
+mother board,1.0000
+web browsing,1.0000
+delivery,1.0000
+dvd burner,1.0000
+operation,1.0000
+customer support,1.0000
+built,1.0000
+customer service,1.0000
+drive,1.0000
+external mouse,1.0000
+browser,1.0000
+microsoft office,1.0000
+appearance,1.0000
+graphics card,1.0000
+windows vista,1.0000
+colors,1.0000
+mac os,1.0000
+storage,1.0000
+video card,1.0000
+word processing,1.0000
+batteries,1.0000
+staff,1.0000
+windows 7 home premium,1.0000
+keynote,1.0000
+windows xp,1.0000
+photoshop,1.0000
+firefox,1.0000
+mouse pad,1.0000
+budget,1.0000
+cord,1.0000
+photobooth,1.0000
+graphics cards,1.0000
+edge,1.0000
+preloaded software,1.0000
+hard disc,1.0000
+operating systems,1.0000
+mac software,1.0000
+recovery discs,1.0000
+usb,1.0000
+xp,1.0000
+color,1.0000
+construction quality,1.0000
+longevity,1.0000
+security,1.0000
+built-in webcam,1.0000
+price tag,1.0000
+ports,1.0000
+appleworks,1.0000
+paint,1.0000
+antivirus software,1.0000
+cooling pad,1.0000
+windows 7 ultimate,1.0000
+fingerprint reader,1.0000
+bootcamp,1.0000
+twin packing,1.0000
+virus protection,1.0000
+hdmi port,1.0000
+internet explorer,1.0000
+apple care,1.0000
+build quality,1.0000
+driver,1.0000
+internet speed,1.0000
+photo booth,1.0000
+drivers/applications dvd,1.0000
+skype,1.0000
+wireless,1.0000
+subwoofer,1.0000
+built in camera,1.0000
+hard drive space,1.0000
+extended warranties,1.0000
+right speaker,1.0000
+recovery disk,1.0000
+wifi,1.0000
+windows update,1.0000
+ilife software,1.0000
+lcd,1.0000
+apple applications,1.0000
+quality display,1.0000
+iphotos,1.0000
+sata controller,1.0000
+bluetooth mouse,1.0000
+videocard,1.0000
+charging,1.0000
+processing power,1.0000
+speaker grill,1.0000
+headphones,1.0000
+booting up,1.0000
+osx,1.0000
+internet connection,1.0000
+port,1.0000
+cursor,1.0000
+disc drive,1.0000
+recovery dvds,1.0000
+user interface,1.0000
+surfing,1.0000
+extended life battery,1.0000
+sound card,1.0000
+power adapter,1.0000
+surfing the web,1.0000
+dvd drive,1.0000
+browsing,1.0000
+call center,1.0000
+word processor,1.0000
+surf the web,1.0000
+casing,1.0000
+tech guy,1.0000
+ichat,1.0000
+garage band,1.0000
+power light,1.0000
+rubber enclosure,1.0000
+multi-touch gestures,1.0000
+tracking area,1.0000
+suite of software,1.0000
+usb devices,1.0000
+microsoft office for the mac,1.0000
+syncing,1.0000
+clock in bios setup,1.0000
+warranty service,1.0000
+customer service number,1.0000
+talking to a technician,1.0000
+bios update,1.0000
+hp technical support,1.0000
+virus scan,1.0000
+9 punds,1.0000
+toshiba warranty,1.0000
+managing personal files,1.0000
+force quit,1.0000
+vmware program,1.0000
+find files,1.0000
+opening my documents folder,1.0000
+glass touchpad,1.0000
+external speaker,1.0000
+microsoft software,1.0000
+editing,1.0000
+phone assistance,1.0000
+genius bar,1.0000
+movie playing,1.0000
+word editing,1.0000
+imac backup disc,1.0000
+battery timer,1.0000
+temperatures,1.0000
+core processing unit temperatures,1.0000
+virus protection for mac,1.0000
+lg notebook service center,1.0000
+responds,1.0000
+representive at microsoft,1.0000
+quad core i7,1.0000
+sales associate,1.0000
+windows applications,1.0000
+virus program,1.0000
+seven pounds,1.0000
+style,1.0000
+pricetag,1.0000
+vga port,1.0000
+look and feel standpoint,1.0000
+mozzilla firfox,1.0000
+fingerprint reader driver,1.0000
+built-in mic,1.0000
+board,1.0000
+connector,1.0000
+ethernet,1.0000
+drag and drop feature,1.0000
+sales tax,1.0000
+software packages,1.0000
+external monitor,1.0000
+base installation,1.0000
+amd turin processor,1.0000
+intel,1.0000
+start menu,1.0000
+bluray read/write drive,1.0000
+service tech,1.0000
+tech store,1.0000
+sound output quality,1.0000
+toshiba online help,1.0000
+service life,1.0000
+stock screen,1.0000
+gray color,1.0000
+volume buttons,1.0000
+protector,1.0000
+key pad,1.0000
+magnetic plug-in power charging power cord,1.0000
+graphics quality,1.0000
+service department,1.0000
+warrentys,1.0000
+human interface,1.0000
+inbuilt applications,1.0000
+firewall,1.0000
+apple team,1.0000
+video chat,1.0000
+installation time,1.0000
+abilitiy,1.0000
+spotlight search,1.0000
+wireless system,1.0000
+apple support,1.0000
+adding the bluetooth,1.0000
+graphic power,1.0000
+adobe creative apps,1.0000
+materials,1.0000
+windows xp sp2,1.0000
+techs at hp,1.0000
+graphics chip,1.0000
+ground loop isolator,1.0000
+price range,1.0000
+leading edge,1.0000
+maximum sound,1.0000
+action pack games,1.0000
+after sales support,1.0000
+display screen,1.0000
+acer arcade,1.0000
+system performance,1.0000
+linux based os,1.0000
+shipping carton,1.0000
+intel core processors,1.0000
+price premium,1.0000
+product and help aftermarket,1.0000
+microsoft word,1.0000
+sd memory card reader,1.0000
+sd memory car expansion,1.0000
+lacie 2big external drive,1.0000
+firewire 800 interface,1.0000
+time machine,1.0000
+extra features,1.0000
+acer screen,1.0000
+usb port,1.0000
+fires up,1.0000
+online tutorial videos,1.0000
+soud,1.0000
+windows 7 professional,1.0000
+power cords,1.0000
+multi-touch features,1.0000
+clicking buttons,1.0000
+wired lan,1.0000
+hard reboot,1.0000
+font,1.0000
+2gb ram stick,1.0000
+microsoft word for mac,1.0000
+warranty company,1.0000
+cusromer service center,1.0000
+aluminum body,1.0000
+dock,1.0000
+tech issues,1.0000
+video-editing,1.0000
+movie-making,1.0000
+photo management,1.0000
+school or office use,1.0000
+17 inch screen,1.0000
+launch manager,1.0000
+glass screen,1.0000
+switchable graphic card,1.0000
+technical support,1.0000
+boot mgr,1.0000
+recovery cd,1.0000
+mouse buttons,1.0000
+hdd,1.0000
+rails,1.0000
+ms office apps,1.0000
+nortons virus scan,1.0000
+frame,1.0000
+key broad,1.0000
+school use,1.0000
+navigating,1.0000
+left mouse key,1.0000
+costed,1.0000
+technical service for dell,1.0000
+system clock,1.0000
+driver updates,1.0000
+15 inch,1.0000
+product support,1.0000
+internet signals,1.0000
+multiple page viewer,1.0000
+office programs,1.0000
+temp,1.0000
+windows operating system,1.0000
+processor speed,1.0000
+thunderbolt port,1.0000
+lcd screen,1.0000
+adobe flash player,1.0000
+internet explore,1.0000
+4gb stick of ram,1.0000
+touch control buttons,1.0000
+iweb,1.0000
+system board,1.0000
+dell customer service,1.0000
+rma service,1.0000
+screen/video resolution,1.0000
+dreamweaver,1.0000
+final cut pro 7,1.0000
+msn messenger,1.0000
+17-inch screen,1.0000
+cd burners,1.0000
+uploading photos,1.0000
+creating presentations,1.0000
+12 cell battery,1.0000
+power adapter plug,1.0000
+tab,1.0000
+extended warrenty,1.0000
+tft panel,1.0000
+windows operating systems,1.0000
+music software,1.0000
+combined touch pad and clicker,1.0000
+unibody construction,1.0000
+screen hinges,1.0000
+storage life,1.0000
+nvidia chipset,1.0000
+consistancy,1.0000
+key bindings,1.0000
+10-key,1.0000
+usb output,1.0000
+wireless mouse,1.0000
+windows disc,1.0000
+disk throughput,1.0000
+spinning beachball,1.0000
+screen resolutions,1.0000
+screen resolution,1.0000
+snow leopard,1.0000
+office mac applications,1.0000
+excel,1.0000
+spinning wheel,1.0000
+regular layout keyboard,1.0000
+online chat service,1.0000
+mac version of microsoft office,1.0000
+starting-up time,1.0000
+transporting,1.0000
+network capability,1.0000
+wifi card,1.0000
+repair service,1.0000
+customer service agents,1.0000
+aftereffects programs,1.0000
+dependability,1.0000
+mouse button,1.0000
+openoffice,1.0000
+one touch keys,1.0000
+stability,1.0000
+imovie program,1.0000
+control buttons,1.0000
+system memory,1.0000
+radeon 5850,1.0000
+ddr5,1.0000
+ddr3,1.0000
+pop up windows,1.0000
+web programming software,1.0000
+pop ups,1.0000
+3g network,1.0000
+web access,1.0000
+design based programs,1.0000
+adobe creative suite,1.0000
+hdd cover,1.0000
+spy ware,1.0000
+nortell,1.0000
+pixel sizes,1.0000
+pre installed software update,1.0000
+customer services,1.0000
+space bar,1.0000
+imail,1.0000
+hard disk capacity,1.0000
+gaming look,1.0000
+gaming performance,1.0000
+volume control,1.0000
+internet connectivity,1.0000
+usb wireless card,1.0000
+discharges,1.0000
+heat sink,1.0000
+trend micro,1.0000
+antiviral program,1.0000
+usb port wires,1.0000
+case design,1.0000
+connection,1.0000
+pricing,1.0000
+built-in wireless,1.0000
+noise,1.0000
+iworks,1.0000
+application,1.0000
+boot camp,1.0000
+applecare,1.0000
+cad programs,1.0000
+right click key,1.0000
+cordless mouse,1.0000
+online chat,1.0000
+full service,1.0000
+letter a,1.0000
+capacity,1.0000
+warranty service to toshiba,1.0000
+led backlit display,1.0000
+aesthetics,1.0000
+connect quality,1.0000
+headphone,1.0000
+mic jack,1.0000
+connection with the internet,1.0000
+dashboard,1.0000
+return policy,1.0000
+affordability,1.0000
+hook to my wireless network,1.0000
+aluminum style,1.0000
+nvidia 9800,1.0000
+arm piece,1.0000
+1-year-warranty,1.0000
+word processer,1.0000
+performance specs,1.0000
+quality control,1.0000
+touch-mouse,1.0000
+numeric pad,1.0000
+cover for the dvd drive,1.0000
+arm velcro,1.0000
+2 gb of ram,1.0000
+versitility,1.0000
+hinge design,1.0000
+browsers,1.0000
+screen graphics,1.0000
+clarity,1.0000
+sharpness,1.0000
+safety feature,1.0000
+unibody design,1.0000
+one-year warranty,1.0000
+bluetooth 3,1.0000
+fan blade,1.0000
+external harddrives,1.0000
+functionality,1.0000
+simplicity,1.0000
+mouse keys,1.0000
+mute,1.0000
+color reproduction,1.0000
+proprietary software,1.0000
+apple care plan,1.0000
+video games,1.0000
+trial software,1.0000
+internet interfaces,1.0000
+black keyboard,1.0000
+software options,1.0000
+grafics card,1.0000
+8gb ram,1.0000
+gadgets,1.0000
+disk image,1.0000
+word processing program,1.0000
+usage,1.0000
+macosx,1.0000
+dual-core,1.0000
+quad-core,1.0000
+default background,1.0000
+island backlit keyboard,1.0000
+built it web cam,1.0000
+performed,1.0000
+bluray player,1.0000
+thermal paste,1.0000
+internals,1.0000
+windows logon,1.0000
+online service,1.0000
+windows os,1.0000
+idvd,1.0000
+intel i processors,1.0000
+sound quality via usb,1.0000
+windows xp drivers,1.0000
+google chrome,1.0000
+art aspect,1.0000
+pre-loaded norton firewall/security program,1.0000
+usb connect,1.0000
+multi-touch trackpad,1.0000
+apple keyboard,1.0000
+power cord,1.0000
+techies,1.0000
+sony sonic stage software,1.0000
+docking port,1.0000
+powerpoint program,1.0000
+non-dedicated graphics card,1.0000
+mouse cable,1.0000
+ram slots,1.0000
+hdd bays,1.0000
+16gb ram support,1.0000
+asus tech support,1.0000
+mouse on the pad,1.0000
+left button,1.0000
+built in tools,1.0000
+leopard running system,1.0000
+lg service center,1.0000
+multi-touch track pad,1.0000
+hard disk space,1.0000
+internal hard disk,1.0000
+connects to wifi,1.0000
+mainboard,1.0000
+500gb external hard drive,1.0000
+wireless card,1.0000
+accessories,1.0000
+wt,1.0000
+apple navigation,1.0000
+desktop keyboard,1.0000
+motherboards,1.0000
+ac plug,1.0000
+peformance,1.0000
+s-video port,1.0000
+senior tech,1.0000
+volume wheel,1.0000
+sound quality,1.0000
+manual,1.0000
+sensitivity,1.0000
+core applications,1.0000
+hook up to other wireless networks,1.0000
+shift key,1.0000
+rep,1.0000
+standard os cd,1.0000
+proprietary hardware drivers,1.0000
+programm,1.0000
+response,1.0000
+internet focused activity,1.0000
+ibook backup,1.0000
+keyboard shortcuts,1.0000
+windows media,1.0000
+replacement charger,1.0000
+windows system,1.0000
+printer software,1.0000
+seventeen inch screen,1.0000
+technician,1.0000
+power brick,1.0000
+screen quality,1.0000
+price-point,1.0000
+retail price,1.0000
+microsoft student edition,1.0000
+every day computing,1.0000
+led monitor,1.0000
+backlit keys,1.0000
+safari internet browser,1.0000
+support line,1.0000
+keyboard function,1.0000
+microphone,1.0000
+security-prone os,1.0000
+firewire cable system,1.0000
+ibook,1.0000
+shipment,1.0000
+quicklook,1.0000
+built-in camera,1.0000
+chrome,1.0000
+prices,1.0000
+external dvd drive,1.0000
+external drive,1.0000
+supplied software,1.0000
+kernal,1.0000
+upgraded memory,1.0000
+starts,1.0000
+keynotes,1.0000
+key board,1.0000
+connection card,1.0000
+4gb of ram,1.0000
+8gb of ram,1.0000
+internet capabilities,1.0000
+high definition quality,1.0000
+beast graphics,1.0000
+wall charger,1.0000
+windows vista system,1.0000
+function keys,1.0000
+push button,1.0000
+pentium 4,1.0000
+1 gb ram,1.0000
+interface device,1.0000
+included program,1.0000
+expese,1.0000
+microsoft office apps,1.0000
+internet use,1.0000
+aero,1.0000
+machined aluminum frame,1.0000
+parallels type program,1.0000
+ati graphics card,1.0000
+intel built-in card,1.0000
+power supply cord,1.0000
+applecare warranty plan,1.0000
+13 inch,1.0000
+final cut pro,1.0000
+mac snow leopard o/s,1.0000
+win xp,1.0000
+visa,1.0000
+win7,1.0000
+shutdown,1.0000
+resume from sleep,1.0000
+external keyboard,1.0000
+windows 7 system,1.0000
+wheel,1.0000
+flatline keyboard,1.0000
+ergonomics,1.0000
+applecare tech support,1.0000
+power plug,1.0000
+resolution on the screen,1.0000
+ac power port,1.0000
+running system,1.0000
+durability,1.0000
+vista business,1.0000
+size of the screen,1.0000
+tote,1.0000
+win 7,1.0000
+2gb stick of memory,1.0000
+norton,1.0000
+command prompt,1.0000
+programming,1.0000
+icon list,1.0000
+desktop icons,1.0000
+delivery service,1.0000
+picture quality,1.0000
+i3 processor,1.0000
+resolution of the screen,1.0000
+screen brightness,1.0000
+motherboard chip,1.0000
+windows vista home premium,1.0000
+1gb of ram,1.0000
+brightness,1.0000
+electronic fuzz sound,1.0000
+headphone jack,1.0000
+graphics editing,1.0000
+complex data analysis,1.0000
+costs,1.0000
+hardcopy manuel,1.0000
+visual,1.0000
+plate,1.0000
+mouse command buttons,1.0000
+speeds,1.0000
+lighted keyboard,1.0000
+operation system,1.0000
+agents,1.0000
+three year warranty,1.0000
+nvidia grafics card,1.0000
+hdmi,1.0000
+wireless switch,1.0000
+technical person,1.0000
+driver/application dvd,1.0000
+photo detection software,1.0000
+mouse pointer,1.0000
+engineering design,1.0000
+hinges,1.0000
+pointer,1.0000
+life span,1.0000
+my toshiba feature,1.0000
+layout,1.0000
+one of the programs,1.0000
+button below the mouse pad,1.0000
+lightscribe,1.0000
+photo application,1.0000
+dual touchpad mode,1.0000
+17 ince screen,1.0000
+warranty period,1.0000
+update programs,1.0000
+ms applications,1.0000
+internet tabs,1.0000
+bottom of the computer,1.0000
+repair technician,1.0000
+network connection,1.0000
+core2 quad,1.0000
+charger unit,1.0000
+win 7 home,1.0000
+incase shells,1.0000
+repair center,1.0000
+keyboard functions,1.0000
+service facility,1.0000
+using the internet,1.0000
+universal charger,1.0000
+it support technicians,1.0000
+customer service center,1.0000
+satellite card,1.0000
+zooming,1.0000
+service rep,1.0000
+windows movie maker,1.0000
+beauty,1.0000
+garmin gps software,1.0000
+microsoft office 2003,1.0000
+apple associates,1.0000
+mousepad sensitivity,1.0000
+mac osx,1.0000
+hdd bay,1.0000
+leather carrying case,1.0000
+paralles,1.0000
+windows xp professional,1.0000
+windows server enterprise 2003,1.0000
+windows server 2008 enterprise,1.0000
+display,0.9167
+tech support,0.8750
+value,0.8462
+screen,0.8442
+games,0.8333
+navigate,0.8333
+space,0.8333
+buttons,0.8333
+specs,0.8333
+system,0.8235
+weight,0.8000
+monitor,0.8000
+hd,0.8000
+sound,0.7500
+components,0.7500
+specifications,0.7500
+charge,0.7222
+functions,0.6667
+pages,0.6667
+word,0.6667
+start up,0.6667
+techs,0.6667
+boot,0.6667
+watching movies,0.6667
+navigation,0.6667
+operate,0.6667
+apps,0.6667
+backlit keyboard,0.6667
+cost,0.6000
+set up,0.5714
+internet,0.5455
+works,0.5000
+power,0.5000
+office,0.5000
+camera,0.5000
+ran,0.5000
+numbers,0.5000
+picture,0.5000
+plug,0.5000
+tutorials,0.5000
+expense,0.5000
+performs,0.5000
+setup,0.5000
+weighed,0.5000
+bag,0.5000
+volume,0.5000
+surface,0.5000
+computing,0.5000
+body,0.5000
+spec,0.5000
+bloatware,0.5000
+image,0.5000
+playing,0.5000
+i7,0.5000
+home use,0.5000
+business use,0.5000
+gigs,0.5000
+bulk,0.5000
+vhs,0.5000
+printer,0.5000
+webpages,0.5000
+video editing,0.5000
+patches,0.5000
+booting,0.5000
+transport,0.5000
+plastic piece,0.5000
+full charge,0.5000
+downloads,0.5000
+shutting down,0.5000
+services,0.5000
+functioning,0.5000
+instructions,0.5000
+overpriced,0.5000
+spreadsheets,0.5000
+presentations,0.5000
+systems,0.5000
+material,0.5000
+playing games,0.5000
+flexibility,0.5000
+charges,0.5000
+lid,0.5000
+startup,0.5000
+noises,0.5000
+signals,0.5000
+powerpoint,0.5000
+desktop background,0.5000
+function,0.5000
+depot,0.5000
+fan noise,0.5000
+look,0.4737
+carry,0.4000
+support,0.4000
+updates,0.4000
+switch,0.4000
+build,0.4000
+handle,0.4000
+use,0.3506
+case,0.3333
+running,0.3333
+shut down,0.3333
+charged,0.3333
+sales,0.3333
+techie,0.3333
+i5,0.3333
+images,0.3333
+companies,0.3333
+setting,0.3333
+screens,0.3333
+shipped,0.3000
+feel,0.2667
+designed,0.2500
+geek squad,0.2500
+dvd,0.2500
+product key,0.2500
+stand,0.2500
+equipment,0.2500
+connections,0.2500
+video,0.2222
+run,0.2000
+looks,0.2000
+load,0.2000
+install,0.2000
+book,0.2000
+game,0.2000
+update,0.1667
+media,0.1667
+work,0.1452
+company,0.1333
+brand,0.1250
+loaded,0.1250
+typing,0.1250
+fit,0.1111
+type,0.1000
+repair,0.0909
+life,0.0833
+music,0.0833
+pictures,0.0769
+play,0.0769
+ease,0.0769
+looking,0.0345
+working,0.0286
